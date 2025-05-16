@@ -51,6 +51,16 @@
 \thispagestyle{plain}
 %\null\vfil
 %\vskip 60\p@
+\begin{minipage}{0.15\textwidth}
+	\includegraphics[width=\linewidth]{Pictures/logo_color.jpg} % Replace with actual logo file
+\end{minipage}
+	\hfill
+\begin{minipage}{0.8\textwidth}
+	\centering
+	{\Large	 \textbf{\univname}}\\
+	Roorkee – 247667, Uttarakhand, India
+\end{minipage}
+
 \begin{center}{\huge\bf Certificate\par}\end{center}
 %\vskip 60\p@
 {\normalsize #1}
@@ -65,6 +75,17 @@
 \thispagestyle{plain}
 %\null\vfil
 %\vskip 60\p@
+\begin{minipage}{0.15\textwidth}
+	\includegraphics[width=\linewidth]{Pictures/logo_color.jpg} % Replace with actual logo file
+\end{minipage}
+	\hfill
+\begin{minipage}{0.8\textwidth}
+	\centering
+	{\Large	 \textbf{\univname}}\\
+	Roorkee – 247667, Uttarakhand, India
+\end{minipage}
+
+
 \begin{center}{\huge\bf Declaration\par}\end{center}
 %\vskip 60\p@
 {\normalsize #1}
@@ -440,9 +461,10 @@
 \btypeout{Acknowledgements}
 \addtotoc{Acknowledgements}
 \thispagestyle{plain}
-\begin{center}{\huge{\textit{Acknowledgements}} \par}\end{center}
+\begin{center}
+    {\huge{\textit{Acknowledgements}} \par}
+\end{center}
 {\normalsize #1}
-\vfil\vfil\null
 
 }
 
