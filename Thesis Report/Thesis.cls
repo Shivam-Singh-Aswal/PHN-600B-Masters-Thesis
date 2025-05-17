@@ -47,7 +47,7 @@
 
 \newcommand\Declaration[1]{
 \btypeout{Certificate}
-%\addtotoc{Certificate}
+\addtotoc{Bonafide Certificate}
 \thispagestyle{plain}
 %\null\vfil
 %\vskip 60\p@
@@ -71,7 +71,7 @@
 
 \newcommand\StudentDeclaration[1]{
 \btypeout{Declaration}
-%\addtotoc{Declaration}
+\addtotoc{Student Declaration}
 \thispagestyle{plain}
 %\null\vfil
 %\vskip 60\p@

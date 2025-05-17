@@ -42,13 +42,21 @@ Despite its elegance, the Holographic Principle faces challenges. Outside AdS/CF
 In conclusion, the Holographic Principle is a cornerstone of modern theoretical physics, bridging black hole thermodynamics, quantum mechanics, and gravity. By suggesting that the universe’s information is encoded on a lower-dimensional boundary, it offers a path to unify quantum mechanics and general relativity. Equations like the Bekenstein-Hawking entropy, Bekenstein bound, and Ryu-Takayanagi formula quantify this idea, while AdS/CFT provides a concrete framework. As research progresses, the principle may unlock deeper truths about the universe, perhaps revealing that reality, like a hologram, is a projection of a more fundamental truth.
 
 
-\subsection{AdS$_n$-CFT$_{n-1}$ correspondence}
+\subsection{AdS$_n$-CFT$_{n-1}$ Duality}
+
+\subsubsection{AdS$_n$ spacetime}
+
+
+\subsubsection{CFT$_{n-1}$}
+
+\subsubsection{The duality}
 
 AdS/CFT Duality Explanation
 The AdS/CFT correspondence, a cornerstone of modern theoretical physics, posits a duality between a conformal field theory (CFT) in ( d )-dimensional Minkowski space and a gravitational theory in ( (d+1) )-dimensional Anti-de Sitter (AdS) space. Introduced by Maldacena, this holographic principle suggests that a strongly coupled CFT, such as \( \mathcal{N}=4 \) super Yang-Mills (SYM) in four dimensions, is equivalent to a weakly coupled supergravity theory in \( AdS_5 \times S^5 \). The correspondence leverages the isometry group \( SO(2,4) \) of \( AdS_5 \), which matches the conformal group of the CFT, enabling a dictionary between CFT operators and AdS fields. For instance, a CFT operator \( O(x) \) with conformal dimension \( \Delta \) couples to a bulk field \( \phi(x, u) \) via boundary interactions, described by the action term \( \int d^4 x , \phi_0(x) O(x) \), where \( \phi_0(x) \) is the boundary value of \( \phi \). Correlation functions in the CFT are computed using the bulk partition function, approximated classically as \[Z_{\text{AdS}}[\phi_0] = e^{-S_{\text{AdS}}[\phi]} \approx \langle e^{\int \phi_0 O} \rangle_{\text{CFT}}\] The large ( N ) limit of the gauge theory, with ’t Hooft coupling \( \lambda = g_{\text{YM}}^2 N \), corresponds to the classical supergravity limit when \( \lambda \gg 1 \), while the string coupling \( g_s \sim 1/N \). This duality allows quantum effects in the CFT, like correlation functions \[\langle O(x_1) \cdots O(x_n) \rangle\] to be computed via classical gravitational dynamics, providing insights into strongly coupled systems, confinement, and even condensed matter physics, by mapping complex quantum phenomena to tractable geometric problems in AdS space.
 
+\subsection{$AdS_2$-CFT$_1$ correspondence}
 
-\subsection{2D gravity models - JT gravity}
+\subsubsection{2D gravity models - JT gravity}
 Jackiw-Teitelboim (JT) gravity is a model of two-dimensional (2D) gravity that provides a valuable framework for understanding quantum gravity and black hole thermodynamics in a simplified setting. Unlike in four dimensions where Einstein's equations produce dynamic degrees of freedom for the metric, in 2D spacetime the Einstein tensor vanishes identically due to topological constraints. Specifically, for any 2D metric $g_{\mu\nu}$, the Einstein tensor $G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R$ is identically zero because the Ricci tensor $R_{\mu\nu}$ is completely determined by the scalar curvature $R$, and the variation of the Einstein-Hilbert action yields no dynamics. Therefore, to have a nontrivial theory of gravity in 2D, auxiliary fields such as the *dilaton* $\phi$ are introduced.
 
 In JT gravity, the action is constructed as
@@ -90,7 +98,7 @@ which includes the JT gravity model in specific limits where $\Phi \sim \phi$, a
 The beauty of JT gravity lies in its exact solvability and the ability to study non-perturbative aspects of quantum gravity, black hole entropy, and holography in a tractable setting. The model encapsulates the essence of diffeomorphism invariance, black hole thermodynamics, and quantum effects such as Hawking radiation, despite its apparent simplicity.
 
 
-\subsection{1D CFT model - SYK model}
+\subsubsection{1D CFT model - SYK model}
 The Sachdev-Ye-Kitaev (SYK) model is a quantum mechanical system of $N$ Majorana fermions $\chi_i(\tau)$ with all-to-all random $q$-body interactions, most commonly $q = 4$. Its action is given by:
 
 $$
@@ -150,6 +158,8 @@ $$
 $$
 
 which saturates the bound on chaos in quantum systems and matches the behavior of black holes in Einstein gravity. This profound connection makes the SYK model a valuable tool in exploring the AdS/CFT correspondence and quantum aspects of gravity.
+
+\subsection{Central Charge}
 
 
 \section{Motivation}

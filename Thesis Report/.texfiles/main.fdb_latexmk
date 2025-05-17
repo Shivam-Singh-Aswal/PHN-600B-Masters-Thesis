@@ -1,17 +1,17 @@
 # Fdb version 4
-["bibtex .texfiles/main"] 1747412081.33216 ".texfiles/main.aux" ".texfiles/main.bbl" ".texfiles/main" 1747426836.58632 0
+["bibtex .texfiles/main"] 1747463025.79536 ".texfiles/main.aux" ".texfiles/main.bbl" ".texfiles/main" 1747463026.91963 0
   "./Bibliography.bib" 1747387467.41577 996 535c9af08a757bb59ace3773584b49eb ""
-  ".texfiles/main.aux" 1747426836.3099 3935 b5d6f8498b363eb56fe93c639f8ff461 "pdflatex"
+  ".texfiles/main.aux" 1747463026.59961 5202 e7cad69d13971a70d0fbdb2f405e9b56 "pdflatex"
   "/opt/texlive/2024/texmf-dist/bibtex/bst/base/ieeetr.bst" 1732574197 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
   (generated)
   ".texfiles/main.bbl"
   ".texfiles/main.blg"
   (rewritten before read)
-["pdflatex"] 1747426835.6547 "main.tex" "main.pdf" "main" 1747426836.58647 0
-  ".texfiles/main.aux" 1747426836.3099 3935 b5d6f8498b363eb56fe93c639f8ff461 "pdflatex"
-  ".texfiles/main.bbl" 1747412081.44934 823 f06d1393293607e307466581e821e749 "bibtex .texfiles/main"
-  ".texfiles/main.out" 1747426836.31044 3218 43842c44dc219201b474bc7bdd18af00 "pdflatex"
-  ".texfiles/main.toc" 1747426836.31044 1505 bbe3c155406333a90412bbacb36deadb "pdflatex"
+["pdflatex"] 1747463025.92206 "main.tex" "main.pdf" "main" 1747463026.91979 0
+  ".texfiles/main.aux" 1747463026.59961 5202 e7cad69d13971a70d0fbdb2f405e9b56 "pdflatex"
+  ".texfiles/main.bbl" 1747463025.91702 823 f06d1393293607e307466581e821e749 "bibtex .texfiles/main"
+  ".texfiles/main.out" 1747463026.60063 4721 beeb6e10e535bc414a60fd8e0921e2da "pdflatex"
+  ".texfiles/main.toc" 1747463026.60063 2199 7fc67fc47583f1b1ae71199ded73ad1b "pdflatex"
   "/opt/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1732574197 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1732574197 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcbx1095.tfm" 1732574197 1536 0adca69c597a47fe7664bf81057bb53b ""
@@ -172,14 +172,15 @@
   "/opt/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1732574197 5476111 fdcfb60f1381ba4f9361b237b4819c35 ""
   "/opt/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1732574197 3343423 9a555cea33c07d01a8df62a5b7737608 ""
   "/opt/texlive/2024/texmf.cnf" 1732574197 585 d89e4959d6ce47100a8277b236c781f4 ""
-  "Chapters/Chapter1.tex" 1747426834.91863 18025 aaf45308efe0f3fa1115aa9c61abbeb8 ""
-  "Chapters/Chapter2.tex" 1747401012.70443 562 506492b08000174de8c21b2a937da0ba ""
+  "Appendices/AppendixA.tex" 1747428889.95662 6738 b53b3910120377d933ba416b3c0daecc ""
+  "Chapters/Chapter1.tex" 1747428516.2566 18191 4aefa1059555ba7c34d7a028e619abb6 ""
+  "Chapters/Chapter2.tex" 1747463023.38308 867 22dcfc62a87584f46e18468f7a2fea1e ""
   "Chapters/Chapter3.tex" 1747387467.4183 424 9d98a2fdae8a8cc87c56b288c4591c4b ""
   "Pictures/Figure 1.png" 1747387467.42029 18136 c733fcdac65a6c2e38d1f38cf3f3b160 ""
   "Pictures/logo_color.jpg" 1437571424 2885934 2fc03b03b7899ea3a55779d28c02943f ""
-  "Thesis.cls" 1747407751.10711 18503 12c7b84e1bb18c259e4e0a1f68a0ed5d ""
+  "Thesis.cls" 1747429441.04516 18518 0ff7b10960c5175b2995d6d10f71622c ""
   "lstpatch.sty" 1747387467.41752 15938 1178294323ac53b1bbad66848e352be8 ""
-  "main.tex" 1747407982.67734 13549 fead3825c64e3f18859bdf57b46fb228 ""
+  "main.tex" 1747429614.04828 13481 efa997583a1671d84cb82d2c30c9419d ""
   "vmargin.sty" 1747387467.41757 17688 5e1db5d15eef41d7f0482f9091afa8e2 ""
   (generated)
   ".texfiles/main.aux"

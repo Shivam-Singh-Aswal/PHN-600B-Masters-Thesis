@@ -295,13 +295,13 @@ INPUT .texfiles/main.toc
 INPUT .texfiles/main.toc
 INPUT .texfiles/main.toc
 OUTPUT .texfiles/main.toc
+INPUT /opt/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /opt/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
 INPUT ./Chapters/Chapter1.tex
 INPUT ./Chapters/Chapter1.tex
 INPUT ./Chapters/Chapter1.tex
 INPUT ./Chapters/Chapter1.tex
 INPUT Chapters/Chapter1.tex
-INPUT /opt/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /opt/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /opt/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /opt/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
@@ -341,6 +341,11 @@ INPUT ./Chapters/Chapter3.tex
 INPUT ./Chapters/Chapter3.tex
 INPUT ./Chapters/Chapter3.tex
 INPUT Chapters/Chapter3.tex
+INPUT ./Appendices/AppendixA.tex
+INPUT ./Appendices/AppendixA.tex
+INPUT ./Appendices/AppendixA.tex
+INPUT ./Appendices/AppendixA.tex
+INPUT Appendices/AppendixA.tex
 INPUT .texfiles/main.bbl
 INPUT .texfiles/main.bbl
 INPUT .texfiles/main.bbl
