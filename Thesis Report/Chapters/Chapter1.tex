@@ -49,7 +49,7 @@ In conclusion, the Holographic Principle is a cornerstone of modern theoretical 
 
 \subsubsection{CFT$_{n-1}$}
 
-\subsubsection{The duality}
+\subsubsection{AdS/CFT correspondence}
 
 AdS/CFT Duality Explanation
 The AdS/CFT correspondence, a cornerstone of modern theoretical physics, posits a duality between a conformal field theory (CFT) in ( d )-dimensional Minkowski space and a gravitational theory in ( (d+1) )-dimensional Anti-de Sitter (AdS) space. Introduced by Maldacena, this holographic principle suggests that a strongly coupled CFT, such as \( \mathcal{N}=4 \) super Yang-Mills (SYM) in four dimensions, is equivalent to a weakly coupled supergravity theory in \( AdS_5 \times S^5 \). The correspondence leverages the isometry group \( SO(2,4) \) of \( AdS_5 \), which matches the conformal group of the CFT, enabling a dictionary between CFT operators and AdS fields. For instance, a CFT operator \( O(x) \) with conformal dimension \( \Delta \) couples to a bulk field \( \phi(x, u) \) via boundary interactions, described by the action term \( \int d^4 x , \phi_0(x) O(x) \), where \( \phi_0(x) \) is the boundary value of \( \phi \). Correlation functions in the CFT are computed using the bulk partition function, approximated classically as \[Z_{\text{AdS}}[\phi_0] = e^{-S_{\text{AdS}}[\phi]} \approx \langle e^{\int \phi_0 O} \rangle_{\text{CFT}}\] The large ( N ) limit of the gauge theory, with ’t Hooft coupling \( \lambda = g_{\text{YM}}^2 N \), corresponds to the classical supergravity limit when \( \lambda \gg 1 \), while the string coupling \( g_s \sim 1/N \). This duality allows quantum effects in the CFT, like correlation functions \[\langle O(x_1) \cdots O(x_n) \rangle\] to be computed via classical gravitational dynamics, providing insights into strongly coupled systems, confinement, and even condensed matter physics, by mapping complex quantum phenomena to tractable geometric problems in AdS space.
@@ -159,8 +159,20 @@ $$
 
 which saturates the bound on chaos in quantum systems and matches the behavior of black holes in Einstein gravity. This profound connection makes the SYK model a valuable tool in exploring the AdS/CFT correspondence and quantum aspects of gravity.
 
-\subsection{Central Charge}
+\subsection{Virosoro Algebra and the Central Charge}
+\label{subsection:central-charge}
+The Witt algebra and the Virasoro algebra are fundamental structures in theoretical physics, particularly in conformal field theory (CFT), which describes systems with conformal symmetry, such as those in string theory or critical phenomena in statistical mechanics. The Witt algebra is an infinite-dimensional Lie algebra that captures the infinitesimal conformal transformations of the complex plane or the circle (S¹). Physically, it represents the symmetries of a system that remain invariant under angle-preserving transformations, like stretching or rotating parts of a plane while preserving its local structure. Its basis elements, labeled \(L_n\), correspond to vector fields that generate these transformations, with a Lie bracket \([L_n, L_m] = (n - m)L_{n+m}\), reflecting how these symmetries compose.
 
+The Virasoro algebra, however, is the central player in CFT, extending the Witt algebra to account for quantum effects. In classical systems, symmetries like those in the Witt algebra are straightforward, but quantization introduces anomalies—quantum corrections that modify the symmetry algebra. The Virasoro algebra is the Witt algebra's *central extension*, meaning it adds a new element, a central charge \(Z\), to the algebra, which doesn’t transform under the symmetries but affects their composition. The modified Lie bracket becomes \([L_n, L_m] = (n - m)L_{n+m} + \delta_{n+m,0} \frac{n(n^2 - 1)}{12} Z\), where the extra term, proportional to \(Z\), appears only when \(n + m = 0\). This central charge \(Z\) is a scalar that commutes with all \(L_n\) (\([L_n, Z] = 0\)), making it “central” to the algebra.
+
+The transition from the Witt to the Virasoro algebra is like upgrading a classical machine to a quantum one: the Witt algebra handles the smooth, classical symmetries, but the Virasoro algebra, with its central charge, captures the richer, quantum-deformed structure. This extension is unique (up to equivalence), making the Virasoro algebra the universal framework for describing conformal symmetries in quantum physics, with the central charge acting as a fingerprint of the system’s quantum nature.
+
+We have adopted the following approach to compute the central-charge. From the twisted stress-energy tensor, we can compute the central charge using the following formula:
+
+\begin{equation}
+    \label{eqn:central-charge-transformation-eqn}
+    \delta_{\epsilon}T_{zz}(z) = \frac{c}{12}\partial^3_z\eta(z) + 2\partial_z\eta(z)T_{zz}(z) + \eta(z)\partial_zT_{zz}(z)
+\end{equation}
 
 \section{Motivation}
 

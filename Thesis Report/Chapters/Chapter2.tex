@@ -6,30 +6,111 @@
 
 \lhead{Chapter 2. \emph{Literature Review}} 
 
+It is natural to assume that if a problem has been solved in the $\left(3+1  \right) D$ then the solution in reduced number of dimensions should follow similarly. However, this is not the case for the \textit{Einstein-Hilbert} field equations which were originally formulated in 4D spacetime background. Especially the reduction to the $\left( 1+1 \right) D$ requires modification in the action as the 4D action gives no information on the dynamics and the equations instead express mathematical identities in the 2D spacetime.
+
+Instead of writing the action from scratch in lower dimensions we have another alternative which is to use the \textit{Kaluza-Klein} reduction scheme. [\ref{AppendixA}]
+
+In the following reviewed papers, we will see how the authors have formulated the 2D gravity theories coupled with the electromagentic theories (Maxwell and ModMax). Further due to Hartman and Strominger \cite{HartmanStrominger} we know that the conformal diffeomorphisms have to be provided with appropriate gauge transformations in order to preserve the boundary conditions. Further they noted that these transformations satisfy the \textit{Virosoro algebra} (\ref{subsection:central-charge}) and have a corresponding central charge.
+
+We use the relations 
+\begin{equation}
+    T^{ab} = \frac{2}{\sqrt{-g}} \frac{\delta I}{\delta g_{ab}}, \quad J^a = \frac{1}{\sqrt{-g}} \frac{\delta I}{\delta A_a}.
+\end{equation}
+where $T^{ab}$ is the energy-momentum tensor, $J^a$ is the current density on the boundary. Further $h_{ab}$ is the induced metric on the boundary. 
+
+We solve for the form of the required $U(1)$ gauge transformation so as to preserve the boundary conditions upon diffeomorphisms. Further the transformed stress-energy tensor under the combined effect of both the transformations reveals the central-charge. 
+
+\section{Brown-Heanneux Central charge \cite{brown1986central}}
 
 
-\section{$1+1D$ gravity coupled to constant EM field strength}
+\section{$(1+1)D$ gravity coupled to constant EM field  \cite{castro2019}}
 \label{castro-paper}
 
-In a paper authored by \textit{Castro et al.} \cite{castro2019}, the authors explore the dynamics of a $1+1D$ gravity theory coupled to a constant electromagnetic field strength. The paper delves into the implications of this coupling on the gravitational dynamics and the resulting spacetime structure. 
+In a paper authored by \textit{Castro et al.} \cite{castro2019}, the authors explore the dynamics of a $(1+1)D$ JT gravity theory coupled to a constant electromagnetic field strength. The paper delves into the implications of this coupling on the gravitational dynamics and the resulting spacetime structure. 
 
 \subsection{The bulk action and the equations of motion}
+\[ I_{bulk} = \frac{\alpha}{2\pi}\int_{\mathcal{M}}^{} d^2x \sqrt{-g}\left [ e^{-2\phi} \left ( R + \frac{8}{L^2} \right ) - \frac{L^2}{4}F^2 \right]\]
 
-\section{$1+1D$ gravity coupled to the ModMax EM field}
+To obtain the equations of motion, we vary the action and get the following expression 
+\begin{equation}
+    \delta I_{\text{bulk}} = \frac{\alpha}{2\pi} \int_{\mathcal{M}} d^2 x \sqrt{-g} \left[ E^{\mu\nu} \delta g_{\mu\nu} + E^{\phi} \delta \phi + E^{\mu} \delta A_{\mu} \right] + \text{boundary terms}.
+\end{equation}
+\begin{equation}
+    E_{\mu\nu} = \nabla_{\mu}\nabla_{\nu}e^{-2\phi} - g_{\mu\nu}\nabla^2 e^{-2\phi} + \frac{4}{L^2}e^{-2\phi}g_{\mu\nu} + \frac{1}{2}F_{\mu}^{\lambda}F_{\nu\lambda} - \frac{1}{8}g_{\mu\nu}F^2 = 0.
+\end{equation}
+\begin{equation}
+    E_{\phi} = -2e^{-2\phi}\left(R + \frac{8}{L^2}\right)=0 \text{\textbf{ and }} E_{\mu} = L^2\nabla^{\nu}F_{\nu\mu} = 0
+\end{equation}
+
+Further considering a constant electromagnetic field strength $F_{\mu\nu} = 2\mathcal{E}\epsilon_{\mu\nu}$, we obtain for the dilaton field $e^{-2\phi}=\displaystyle\frac{L^4}{4}\mathcal{E}^2$
+
+Further analyzing and the formulation of complete solution requires framing the problem in the \textit{Fefferman-Graham gauge} \cite{fefferman1985conformal} and considering the asymptotic expansion of the fields in this gauge. 
+
+\subsection{Calculation of the central charge}
+\label{subsec:central-charge-castro}
+Under the diffeomorphic transformation $x^{\mu}\to x^{\mu}+\theta^{\mu}$, requiring the boundary condition preservation, the authors obtained the gauge transformation as 
+\begin{equation}
+    \theta^\eta = -\frac{L}{2}\partial_t\zeta(t), \quad \theta^t = \zeta(t) + \frac{L^2}{2}\left(e^{4\eta/L} + g_1(t)\right)^{-1}\partial_t^2\zeta(t)
+\end{equation}
+
+here $\zeta$ is an arbitrary function of time. To preserve $A_{\eta} = 0$ the transformation $A_{\mu}\to A_{\mu}+\partial_{\mu}\Lambda$ gets the solution 
+
+\begin{equation}
+    \Lambda = -L\,e^{-\phi}\left(e^{2\eta/L} + g_1(t)\,e^{-2\eta/L}\right)^{-1}\partial_t^2\zeta(t).
+\end{equation}
+
+The current and stress tensor's transformation can be expressed as 
+\begin{equation}
+    (\delta_{\epsilon} + \delta_{\Lambda}) A_t = -e^{-2\eta/L}e^{-\phi}\left(\frac{1}{L}\xi(t)\partial_th_1(t) + \frac{2}{L}h_1(t)\partial_t\xi(t) + \frac{L}{2}\partial_t^3\xi(t)\right).
+\end{equation}
+\begin{equation}
+    (\delta_{\theta} + \delta_{\Lambda})T_{tt} = 2T_{tt}\partial_t\zeta + \zeta\partial_tT_{tt} - \frac{c}{24\pi}L\partial_t^3\zeta(t).
+\end{equation}
+
+From these equations, the relation between $A_{\mu}$ and $T^{\mu\nu}$ and noting from the Eq~\ref{eqn:central-charge-transformation-eqn} we can identify $c=-24\alpha e^{-2\phi}=\displaystyle\frac{6}{G_2}=\displaystyle\frac{3}{2}k\mathcal{E}^2 L^4$.
+
+Proceeding further, the authors performed a dimensional reduction of the $(2+1)D$ theory using $ds^2 = e^{-2\Phi}\ell^2(dz + \mathcal{A}_\mu dx^\mu)^2 + \mathcal{G}_{\mu\nu}dx^\mu dx^\nu$ and obtained a relation between the central charge in 3D to one that in 2D as 
+\begin{equation}
+    c_{2D} = 2\pi e^{-\Phi}c_{3D}
+\end{equation}
+
+\section{$(1+1)D$ gravity coupled to the ModMax EM field \cite{hemant2023}}
 \label{drc-hemant-paper}
 
+The authors in this paper started with the \textit{ModMax} lagrangian, which is an example of non-linear electrodynamics with one free parameter, $\beta$, so formed to possess the usual $\mathbb{SO}(2)$ symmetry of Maxwell's theory along with the conformal symmetry. Further in the weak field limit $\left( \beta \to \infty \right) $, it must yield the Maxwell theory. The \textit{ModMax} lagrangian is given by
+\begin{equation}
+    \label{eqn:modmax-action}
+    \mathcal{L} = \frac{1}{2} \left( S \cosh\beta - \sqrt{S^2+P^2}\sinh\beta  \right)
+\end{equation}
+
+where $S=\frac{1}{2}F_{\mu\nu}F^{\mu\nu}$ and $P=\frac{1}{2}F_{\mu\nu}\tilde{F}^{\mu\nu}$. $\tilde{F}^{\mu\nu}$ is the hodge dual of the electromagnetic field tensor defined as $\tilde{F}^{\mu\nu} = \frac{1}{4}\epsilon^{\mu\nu\rho\sigma}F_{\rho\sigma}$.
 
 
-\section{}
+\subsection{The bulk action and the equations of motion}
+The 4D action for the gravity coupled to the \textit{ModMax} lagrangian is given as 
+\begin{equation}
+    I = \frac{1}{16\pi G_4}\int d^4x\sqrt{-g}\left(R - 2\Lambda - 4\alpha\mathcal{L}_{MM}\right)
+\end{equation}
 
-\lipsum[2-4]
+where $\alpha$ is the coupling constant and $\Lambda$ is the cosmological constant. The authors performed suitable dimensional reduction to obtain action for a $\left( 1+1 \right)$D \textit{JT} gravity theory. The ansatz for the metric was taken to be 
+\begin{align}
+    ds_{(3+1)}^2 &= g_{\mu\nu}(x^\rho)dx^\mu dx^\nu + \Phi(x^\mu)dx_i^2 \\
+    A_\mu &\equiv A_\mu(x^\nu), \quad A_z \equiv A_z(x^\mu),
+\end{align}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=0.5\textwidth]{Pictures/Figure 1.png}
-    \caption{This is the caption for figure 1.}
-    \label{figure:chap2_Figure_2}
-\end{figure}
+Here $\mu, \nu$ are the indices for coordinates in the reduced dimensions and $i$ denotes the compact dimensions. The $2D$ projected \textit{ModMax} action is written as 
+\begin{align}
+    I_2 &= \frac{1}{16\pi G_2}\int d^2x\sqrt{-g_{(2)}}\left(\Phi R^{(2)} - 2\Lambda\Phi - 4\alpha\Phi\mathcal{L}_{(M)}^{(2)}\right) \\ 
+    \mathcal{L}_{\text{MM}}^{(2)} &= \frac{1}{2}\left(s\cosh\beta - \sqrt{s^2 + p^2}\sinh\beta\right) \\
+    s &= \frac{1}{2}F_{\mu\nu}F^{\mu\nu} + \Phi^{-1}\left((\partial\chi)^2 + (\partial\zeta)^2\right), \quad p = -2\Phi^{-1}\epsilon^{\mu\nu}\partial_\mu\chi\partial_\nu\zeta
+\end{align}
 
+\subsection{Calculation of the central charge}
+An approach similar to \ref{subsec:central-charge-castro} was employed here, wherein the gauge transformation were obtained by imposing boundary condition preservation upon diffeomorphisms. And thus the coefficient of the modification term in the stress-energy tensor was identified as the central charge. The central charge thus obtained is given as
+\begin{equation}
+c_{3D} = \frac{1}{144\sqrt{3}\pi G_2}\left(\alpha - 12\beta\alpha + 2\alpha^2\right),
+\end{equation}
+
+The authors thus rightly concluded that in the limiting case of weak field $\left( \beta\to 0 \right) $ the central charge asymptotes to $\displaystyle\frac{1}{G_2}$ which matches with the central charge obtained by \ref{castro-paper} for the case of Maxwell theory.
 
 
