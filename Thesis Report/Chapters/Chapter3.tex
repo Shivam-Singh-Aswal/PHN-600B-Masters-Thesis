@@ -106,9 +106,6 @@ These are highly coupled partial differential equations and obtaining analytical
 \subsection{Boundary terms and counterterms}
 
 
-\subsection{Central charge}
-
-
 
 
 \section{3D to 2D reduction and central charge}
@@ -120,16 +117,23 @@ The choice of ansatz for the metric reduction as highlighted in \ref{subsec:modm
 \begin{equation}
     ds_{(3)}^2 = \mathcal{G}_{\mu\nu}dx^\mu dx^\nu + \Phi dz^2
 \end{equation}
-$\mu,\nu$ are the indices of the reduced spacetime and $z$ is the compact dimension with volume $L_z$. Further the ricci scalar and the 
+$\mu,\nu$ are the indices of the reduced spacetime and $z$ is the compact dimension with volume $L_z$. Further the ricci scalar is given by 
+
+\begin{equation}
+    R_{(3)} = \left ( R_{(2)} - \frac{1}{4}(\partial\Phi)^2 - \frac{1}{2}\Phi^{-1} \Box\Phi \right )
+\end{equation}
+and 
+\begin{equation}
+    \sqrt{-g_{(3)}} = \sqrt{-\mathcal{G}}\sqrt{ \Phi}
+\end{equation}
 
 \subsection{Equations of motion}
-
+Varying the action we get 
 
 \subsection{Perturbative solutions in FG gauge}
 
-\subsection{Boundary terms and counterterms}
 
 
-\subsection{Central charge}
-
+\section{Future work}
+We were unable to solve the equations and the for the boundary terms. The 3D-2D dictionary for the \textit{ModMax} couldn't be found as well. Thus the computation of central charge could not be carried out. We could take up this task in future and try to get the relation between the charges in 2D and 3D thereby comparing the two. Further comparision with the 2D central charge calculated by \cite{rathi2023ads2} could shed some light on the dependence of dimensional reduction metric on the central charge in the lower dimension. 
 
