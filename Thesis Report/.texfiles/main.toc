@@ -36,10 +36,8 @@
 \contentsline {subsection}{\numberline {3.1.4}Boundary terms and counterterms}{22}{subsection.80}%
 \contentsline {section}{\numberline {3.2}3D to 2D reduction and central charge}{22}{section.81}%
 \contentsline {subsection}{\numberline {3.2.1}Reduction of the ModMax Lagrangian and bulk action}{23}{subsection.82}%
-\contentsline {subsection}{\numberline {3.2.2}Equations of motion}{23}{subsection.86}%
-\contentsline {subsection}{\numberline {3.2.3}Perturbative solutions in FG gauge}{23}{subsection.87}%
-\contentsline {section}{\numberline {3.3}Future work}{23}{section.88}%
+\contentsline {section}{\numberline {3.3}Future work}{23}{section.87}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Kaluza-Klein reduction scheme}{25}{appendix.89}%
+\contentsline {chapter}{\numberline {A}Kaluza-Klein reduction scheme}{25}{appendix.88}%
 \vspace {1em}
-\contentsline {chapter}{Bibliography}{29}{dummy.107}%
+\contentsline {chapter}{Bibliography}{29}{dummy.106}%
