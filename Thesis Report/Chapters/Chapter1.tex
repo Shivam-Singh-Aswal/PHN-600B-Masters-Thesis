@@ -22,8 +22,7 @@ The complexity of the mathematical models that we have to deal with increases ex
 
 \subsection{Holographic Principle}
 
-The Holographic Principle: A Scientific Explanation
-The Holographic Principle is a revolutionary conjecture in theoretical physics that suggests the information content of a volume of space can be fully described by a theory defined on its boundary, much like a hologram encodes a three-dimensional image on a two-dimensional surface. Proposed in the 1990s by Gerard ’t Hooft and Leonard Susskind, it emerged from studies of black hole thermodynamics and quantum gravity, challenging our intuitive understanding of space, information, and the fundamental nature of the universe. The principle posits that the degrees of freedom within a region of space are not proportional to its volume (as one might expect in a three-dimensional world) but to the area of its boundary, implying that our seemingly three-dimensional reality might be a "projection" of a lower-dimensional system. This idea has profound implications for reconciling quantum mechanics with general relativity, particularly in the context of black holes and string theory, and it underpins modern approaches to quantum gravity like the AdS/CFT correspondence.
+The Holographic Principle is a suggests that the information content of a volume of space can be fully described by a theory defined on its boundary like a hologram encodes a three-dimensional image on a two-dimensional surface. The principle was proposed by Gerard ’t Hooft and Leonard Susskind, it emerged from studies of black hole thermodynamics and quantum gravity, challenging our intuitive understanding of space, information, and the fundamental nature of the universe. The principle implies that the degrees of freedom within a region of space are not proportional to its volume (as one might expect in a three-dimensional world) but to the area of its boundary, implying that our seemingly three-dimensional reality might be a "projection" of a lower-dimensional system. This idea has profound implications for reconciling quantum mechanics with general relativity, particularly in the context of black holes and string theory, and it underpins modern approaches to quantum gravity like the AdS/CFT correspondence.
 The Holographic Principle originated from the study of black holes, specifically the paradox of information loss. In the 1970s, Stephen Hawking showed that black holes emit radiation (now called Hawking radiation) due to quantum effects near the event horizon, leading to their eventual evaporation. This process suggested that information inside the black hole might be lost, violating quantum mechanics’ principle of unitarity, which demands that information is preserved. Jacob Bekenstein’s work on black hole entropy provided a crucial clue: the entropy ( S ) of a black hole is proportional to the area ( A ) of its event horizon, not its volume. This is encapsulated in the Bekenstein-Hawking entropy formula:
 $$ S = \frac{k c^3 A}{4 \hbar G}, $$
 where \( k \) is Boltzmann’s constant, \( c \) is the speed of light, \( \hbar \) is the reduced Planck constant, \( G \) is the gravitational constant, and \( A = 4\pi r^2 \) for a Schwarzschild black hole with radius \( r = \frac{2GM}{c^2} \). Since entropy measures the number of microstates (or information content) of a system, this formula implies that the information inside a black hole scales with the two-dimensional area of its horizon (in Planck units, \( A/4l_p^2 \), where \( l_p = \sqrt{\frac{\hbar G}{c^3}} \) is the Planck's length), not its three-dimensional volume. This was surprising because, in most physical systems, entropy scales with volume, reflecting the number of particles or states within.
@@ -39,15 +38,98 @@ This formula generalizes the Bekenstein-Hawking entropy to arbitrary regions and
 Second, the principle challenges our understanding of spacetime. If a 3D universe can be described by a 2D boundary, the extra dimension may be an illusion, much like a hologram creates the appearance of depth. This raises questions about the fundamental nature of reality: is our universe holographic, with physical laws emerging from a lower-dimensional theory? While AdS/CFT applies to AdS spaces, efforts are underway to extend holography to flat spacetimes (like our universe) or de Sitter spaces, though these are less understood.
 Third, the Holographic Principle constrains quantum gravity theories. Any consistent theory must respect the area scaling of entropy, ruling out models where information scales with volume. This has influenced string theory, loop quantum gravity, and other approaches, pushing physicists to rethink locality and causality.
 Despite its elegance, the Holographic Principle faces challenges. Outside AdS/CFT, explicit holographic dualities for realistic spacetimes are lacking. The principle also raises philosophical questions: if reality is a hologram, what is the "true" dimensionality of the universe? Moreover, encoding bulk dynamics on a boundary requires non-local interactions, which are hard to reconcile with local field theories.
-In conclusion, the Holographic Principle is a cornerstone of modern theoretical physics, bridging black hole thermodynamics, quantum mechanics, and gravity. By suggesting that the universe’s information is encoded on a lower-dimensional boundary, it offers a path to unify quantum mechanics and general relativity. Equations like the Bekenstein-Hawking entropy, Bekenstein bound, and Ryu-Takayanagi formula quantify this idea, while AdS/CFT provides a concrete framework. As research progresses, the principle may unlock deeper truths about the universe, perhaps revealing that reality, like a hologram, is a projection of a more fundamental truth.
-
 
 \subsection{AdS$_n$-CFT$_{n-1}$ Duality}
 
+This duality is one of the most famous representation of the Holographic principle. It establishes a similarity between an $n$ dimensional AdS theory of gravity and the $n-1$ dimensional quantum theory on the surface.  
+
 \subsubsection{AdS$_n$ spacetime}
 
+% Writing the main content
+Anti-de Sitter (AdS) spacetimes are maximally symmetric solutions to Einstein's field equations with a negative cosmological constant. These spacetimes are notably famous for the AdS/CFT correspondence and Kaluza-Klein reductions. In $D$ dimensions, AdS$_D$ has constant negative curvature and the metric is given by (in Poincaré coordinates):
+\[
+ds^2= e^{-2kz} \eta_{\mu\nu} dx^\mu dx^\nu + dz^2,
+\] 
+where $z$ is the radial coordinate, $k$ relates to the cosmological constant, and $\eta_{\mu\nu}$ is the $(D-1)$-dimensional Minkowski metric. The curvature tensors satisfy:
+\[
+R_{ABCD} = k^2 (\eta_{AC} \eta_{BD} - \eta_{AD} \eta_{BC}),
+\]
+yielding a Ricci tensor:
+\[
+R_{AB} = - (D-1) k^2 \eta_{AB}.
+\]
+The Einstein equation, with cosmological constant $\Lambda = -\frac{(D-1)(D-2)}{2} k^2$, is:
+\[
+R_{AB} - \frac{1}{2} R g_{AB} + \Lambda g_{AB} = 0.
+\]
+AdS spacetimes have a timelike conformal boundary at $z \to \infty$, which differ them from Minkowski or de Sitter spacetimes.
+
+In gravity and Kaluza-Klein reductions, AdS spacetimes are central to brane-world scenarios, like the Randall-Sundrum model, where gravity localizes on a lower-dimensional brane within a higher-dimensional AdS bulk. A brane-world reduction from $D$-dimensional AdS gravity to $(D-1)$-dimensional gravity without a cosmological constant uses the ansatz:
+\[
+d\hat{s}_D^2 = e^{-2k|z|} ds_{D-1}^2 + dz^2.
+\]
+The $D$-dimensional Ricci tensor thus obtained is
+\[
+\hat{R}_{ab} = e^{2k|z|} R_{ab} - (D-1) k^2 \eta_{ab} + 2k \delta(z) \eta_{ab},
+\]
+\[
+\hat{R}_{zz} = - (D-1) k^2 + 2k (D-1) \delta(z).
+\]
+If the bulk satisfies $\hat{R}_{AB} = - (D-1) k^2 \eta_{AB}$, the $(D-1)$-dimensional metric satisfies $R_{ab} = 0$, indicating pure Einstein gravity. Delta-function terms are attributed to brane sources, ensuring consistency.
+
+AdS spacetimes also appear in sphere reductions, such as $D=11$ supergravity on $S^4$, yielding $SO(5)$-gauged supergravity in $D=7$. The AdS$_7 \times S^4$ background arises from the negative cosmological constant induced by the 4-form field strength. 
+
+%The bosonic Lagrangian includes:
+%\[
+%\mathcal{L}_7 = \hat{R} * 1 - \frac{1}{4} T_{ij}^{-1} * D T_{jk} \wedge T_{k\ell}^{-1} D T_{\ell i} - V * 1,
+%\]
+%with potential:
+%\[
+%V = \frac{1}{2} g^2 \left(2 T_{ij} T_{ij} - (T_{ii})^2\right).
+%\]
+%This AdS geometry facilitates consistent truncation to massless modes, vital for holography and unified theories.
 
 \subsubsection{CFT$_{n-1}$}
+
+% Introducing Conformal Field Theory
+Conformal Field Theory (CFT) refers to the field theories which are invariant under conformal transformations. A conformal transformation is a coordinate transformation that preserve angles but rescale the metric by a factor $\Omega^2(\sigma)$. Thus for a metric $g_{\alpha\beta}$, a conformal transformation satisfies:
+\begin{equation}
+g_{\alpha\beta}(\sigma) \to \Omega^2(\sigma) g_{\alpha\beta}(\sigma).
+\end{equation}
+This scale invariance ensures that the physics is same across all length scales, making CFTs essential for modeling critical phenomena in statistical mechanics and worldsheet dynamics in string theory. A conformal group is the group of all the conformal transformations (translations, dilatations and rotation). In 2D, the conformal group is infinite-dimensional, comprising holomorphic transformations $z \to f(z)$. This leads to the Virasoro algebra, with generators $L_n$ containing symmetries such as translations ($z \to z + a$) and dilatations ($z \to \zeta z$).
+
+% Key Features
+A key feature of CFTs is the absence of massive excitations, because a mass term would violate scale invariance. Instead, the focus is on correlation functions and operator transformations. The stress-energy tensor $T_{\alpha\beta}$, is traceless in conformal theories:
+\begin{equation}
+T^\alpha_\alpha = 0.
+\end{equation}
+In complex coordinates $z = \sigma^1 + i\sigma^2$, the tensor splits into holomorphic $T_{zz}(z) = T(z)$ and antiholomorphic $T_{\bar{z}\bar{z}}(\bar{z}) = \bar{T}(\bar{z})$ components, which satisfy the conservation laws $\bar{\partial} T(z) = 0$ and $\partial \bar{T}(\bar{z}) = 0$. The operator product expansion (OPE) is a key tool, expressing the product of operators at nearby points:
+\begin{equation}
+\mathcal{O}_i(z, \bar{z}) \mathcal{O}_j(w, \bar{w}) = \sum_k C_{ij}^k(z-w, \bar{z}-\bar{w}) \mathcal{O}_k(w, \bar{w}).
+\end{equation}
+Primary operators with weights $(h, \bar{h})$ have transformation form as given below (under conformal symmetries):
+\begin{equation}
+\mathcal{O}(z, \bar{z}) \to \left(\frac{\partial \bar{z}}{\partial z}\right)^{-h} \left(\frac{\partial \bar{\bar{z}}}{\partial \bar{z}}\right)^{-\bar{h}} \mathcal{O}(\bar{z}, \bar{\bar{z}}).
+\end{equation}
+These weights define the scaling dimension $\Delta = h + \bar{h}$ and spin $s = h - \bar{h}$.
+
+% Quantum Aspects
+In the quantum regime, two-dimensional CFTs are exactly solvable. The central charge $c$ in the Virasoro algebra:
+\begin{equation}
+[L_m, L_n] = (m-n)L_{m+n} + \frac{c}{12}m(m^2-1)\delta_{m+n,0},
+\end{equation}
+quantifies degrees of freedom, where the trace of the stress-energy tensor in curved space is given by:
+\begin{equation}
+\langle T^\alpha_\alpha \rangle = -\frac{c}{12} R.
+\end{equation}
+
+% Applications
+In string theory, CFTs describe the worldsheet, ensuring gauge invariance in the Polyakov formalism. Boundary CFTs, relevant for open strings, impose conditions like $T_{zz} = T_{\bar{z}\bar{z}}$ at the boundary, reducing the number of states. The free scalar field, with action:
+\begin{equation}
+S = \frac{1}{4\pi\alpha'} \int d^2\sigma \partial_\alpha X \partial^\alpha X,
+\end{equation}
+illustrates these concepts, its propagator revealing conformal properties via the OPE. CFTs thus bridge symmetry principles with physical predictions, offering profound insights into quantum field theory and string theory.
+
 
 \subsubsection{AdS/CFT correspondence}
 
@@ -174,9 +256,7 @@ We have adopted the following approach to compute the central-charge. From the t
     \delta_{\epsilon}T_{zz}(z) = \frac{c}{12}\partial^3_z\eta(z) + 2\partial_z\eta(z)T_{zz}(z) + \eta(z)\partial_zT_{zz}(z)
 \end{equation}
 
-\section{Motivation}
 
-{\color{red} Central charge calculation ...}
 
 %\section{Organization of the Thesis}
 %

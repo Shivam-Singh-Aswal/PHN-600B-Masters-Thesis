@@ -4,34 +4,44 @@
 
 \contentsline {chapter}{Abstract}{v}{dummy.4}%
 
-\contentsline {chapter}{Acknowledgements}{vi}{dummy.5}%
+\contentsline {chapter}{Acknowledgements}{vii}{dummy.5}%
 
-\contentsline {chapter}{Symbols}{ix}{dummy.7}%
 \vspace {1em}
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.9}%
-\contentsline {section}{\numberline {1.1}Background}{1}{section.10}%
-\contentsline {subsection}{\numberline {1.1.1}Holographic Principle}{1}{subsection.11}%
-\contentsline {subsection}{\numberline {1.1.2}AdS$_n$-CFT$_{n-1}$ Duality}{4}{subsection.12}%
-\contentsline {subsubsection}{\numberline {1.1.2.1}AdS$_n$ spacetime}{4}{subsubsection.13}%
-\contentsline {subsubsection}{\numberline {1.1.2.2}CFT$_{n-1}$}{4}{subsubsection.14}%
-\contentsline {subsubsection}{\numberline {1.1.2.3}AdS/CFT correspondence}{4}{subsubsection.15}%
-\contentsline {subsection}{\numberline {1.1.3}$AdS_2$-CFT$_1$ correspondence}{5}{subsection.16}%
-\contentsline {subsubsection}{\numberline {1.1.3.1}2D gravity models - JT gravity}{5}{subsubsection.17}%
-\contentsline {subsubsection}{\numberline {1.1.3.2}1D CFT model - SYK model}{7}{subsubsection.18}%
-\contentsline {subsection}{\numberline {1.1.4}Virosoro Algebra and the Central Charge}{9}{subsection.19}%
-\contentsline {section}{\numberline {1.2}Motivation}{9}{section.21}%
-\contentsline {chapter}{\numberline {2}Literature Review}{11}{chapter.22}%
-\contentsline {section}{\numberline {2.1}Brown-Heanneux Central charge \cite {brown1986central}}{12}{section.24}%
-\contentsline {section}{\numberline {2.2}$(1+1)D$ gravity coupled to constant EM field \cite {castro2019}}{12}{section.25}%
-\contentsline {subsection}{\numberline {2.2.1}The bulk action and the equations of motion}{12}{subsection.26}%
-\contentsline {subsection}{\numberline {2.2.2}Calculation of the central charge}{12}{subsection.30}%
-\contentsline {section}{\numberline {2.3}$(1+1)D$ gravity coupled to the ModMax EM field \cite {hemant2023}}{13}{section.36}%
-\contentsline {subsection}{\numberline {2.3.1}The bulk action and the equations of motion}{14}{subsection.38}%
-\contentsline {subsection}{\numberline {2.3.2}Calculation of the central charge}{14}{subsection.45}%
-\contentsline {chapter}{\numberline {3}Materials and Methods}{15}{chapter.47}%
-\contentsline {section}{\numberline {3.1}Starting Material}{16}{section.48}%
-\contentsline {subsection}{\numberline {3.1.1}Tungsten Powder}{16}{subsection.49}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.7}%
+\contentsline {section}{\numberline {1.1}Background}{1}{section.8}%
+\contentsline {subsection}{\numberline {1.1.1}Holographic Principle}{1}{subsection.9}%
+\contentsline {subsection}{\numberline {1.1.2}AdS$_n$-CFT$_{n-1}$ Duality}{4}{subsection.10}%
+\contentsline {subsubsection}{\numberline {1.1.2.1}AdS$_n$ spacetime}{4}{subsubsection.11}%
+\contentsline {subsubsection}{\numberline {1.1.2.2}CFT$_{n-1}$}{5}{subsubsection.12}%
+\contentsline {subsubsection}{\numberline {1.1.2.3}AdS/CFT correspondence}{7}{subsubsection.20}%
+\contentsline {subsection}{\numberline {1.1.3}$AdS_2$-CFT$_1$ correspondence}{7}{subsection.21}%
+\contentsline {subsubsection}{\numberline {1.1.3.1}2D gravity models - JT gravity}{7}{subsubsection.22}%
+\contentsline {subsubsection}{\numberline {1.1.3.2}1D CFT model - SYK model}{9}{subsubsection.23}%
+\contentsline {subsection}{\numberline {1.1.4}Virosoro Algebra and the Central Charge}{11}{subsection.24}%
+\contentsline {chapter}{\numberline {2}Literature Review}{13}{chapter.26}%
+\contentsline {section}{\numberline {2.1}Brown-Heanneux Central charge \cite {Brown:1986nw}}{14}{section.28}%
+\contentsline {section}{\numberline {2.2}$(1+1)D$ gravity coupled to constant EM field \cite {Castro:2008ne}}{14}{section.31}%
+\contentsline {subsection}{\numberline {2.2.1}The bulk action and the equations of motion}{14}{subsection.32}%
+\contentsline {subsection}{\numberline {2.2.2}Calculation of the central charge}{15}{subsection.36}%
+\contentsline {section}{\numberline {2.3}$(1+1)D$ gravity coupled to the ModMax EM field \cite {rathi2023ads2} \cite {born1934foundations}}{16}{section.42}%
+\contentsline {subsection}{\numberline {2.3.1}The bulk action and the equations of motion}{16}{subsection.44}%
+\contentsline {subsection}{\numberline {2.3.2}Calculation of the central charge}{17}{subsection.51}%
+\contentsline {chapter}{\numberline {3}ModMax lagrangian and comparision between central charge in 2D and 3D}{19}{chapter.53}%
+\contentsline {section}{\numberline {3.1}4D to 3D reduction and central charge}{19}{section.54}%
+\contentsline {subsection}{\numberline {3.1.1}Reduction of the ModMax Lagrangian and bulk action}{19}{subsection.55}%
+\contentsline {subsection}{\numberline {3.1.2}Equations of motion}{20}{subsection.60}%
+\contentsline {subsection}{\numberline {3.1.3}Perturbative solutions in FG gauge}{21}{subsection.69}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}Zero order}{21}{subsubsection.72}%
+\contentsline {subsubsection}{\numberline {3.1.3.2}First order}{22}{subsubsection.75}%
+\contentsline {subsection}{\numberline {3.1.4}Boundary terms and counterterms}{23}{subsection.80}%
+\contentsline {subsection}{\numberline {3.1.5}Central charge}{23}{subsection.81}%
+\contentsline {section}{\numberline {3.2}3D to 2D reduction and central charge}{23}{section.82}%
+\contentsline {subsection}{\numberline {3.2.1}Reduction of the ModMax Lagrangian and bulk action}{23}{subsection.83}%
+\contentsline {subsection}{\numberline {3.2.2}Equations of motion}{23}{subsection.85}%
+\contentsline {subsection}{\numberline {3.2.3}Perturbative solutions in FG gauge}{23}{subsection.86}%
+\contentsline {subsection}{\numberline {3.2.4}Boundary terms and counterterms}{23}{subsection.87}%
+\contentsline {subsection}{\numberline {3.2.5}Central charge}{23}{subsection.88}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Kaluza-Klein reduction scheme}{17}{appendix.50}%
+\contentsline {chapter}{\numberline {A}Kaluza-Klein reduction scheme}{25}{appendix.89}%
 \vspace {1em}
-\contentsline {chapter}{Bibliography}{19}{dummy.51}%
+\contentsline {chapter}{Bibliography}{29}{dummy.107}%

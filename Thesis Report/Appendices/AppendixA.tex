@@ -10,6 +10,69 @@
 The Kaluza-Klein reduction scheme is a method of dimensional reduction that allows us to obtain lower-dimensional theories from higher-dimensional ones. This method is particularly useful in the context of string theory and other theories of quantum gravity, where we often work in higher dimensions.
 
 
+\section*{Overview of Kaluza-Klein Reduction}
+Kaluza-Klein (KK) reduction is a powerful method in theoretical physics for deriving effective lower-dimensional field theories from higher-dimensional theories. It involves compactifying extra spatial dimensions, often on a circle \( S^1 \), and studying the implications in the resulting lower-dimensional spacetime. The original idea by Kaluza and Klein aimed to unify gravity and electromagnetism by considering a five-dimensional spacetime.
+
+\section*{KK Reduction from \((D+1)\)-Dimensions to \(D\)-Dimensions}
+Consider the Einstein-Hilbert action in \( D+1 \) dimensions:
+\begin{equation}
+\mathcal{L} = \sqrt{-\hat{g}} \, \hat{R}
+\end{equation}
+where \( \hat{g}_{MN} \) is the metric and \( \hat{R} \) is the Ricci scalar in \( D+1 \) dimensions. To reduce to \( D \) dimensions, compactify one spatial coordinate \( z \sim z + 2\pi L \) on a circle \( S^1 \), and assume all fields are independent of \( z \) (zero-mode truncation). The metric ansatz is
+\begin{equation}
+d\hat{s}^2 = e^{2\alpha \phi} g_{\mu\nu} dx^\mu dx^\nu + e^{2\beta \phi} (dz + A_\mu dx^\mu)^2
+\end{equation}
+where \( g_{\mu\nu} \) is the \( D \)-dimensional metric, \( A_\mu \) is a gauge field, and \( \phi \) is a scalar (the dilaton). The constants \( \alpha \) and \( \beta \) are chosen as
+\begin{equation}
+\alpha^2 = \frac{1}{2(D-1)(D-2)}, \qquad \beta = -(D-2)\alpha
+\end{equation}
+
+The components of the higher-dimensional metric in terms of \( D \)-dimensional fields become:
+\begin{align}
+\hat{g}_{\mu\nu} &= e^{2\alpha \phi} g_{\mu\nu} + e^{2\beta \phi} A_\mu A_\nu \\
+\hat{g}_{\mu z} &= e^{2\beta \phi} A_\mu \\
+\hat{g}_{zz} &= e^{2\beta \phi}
+\end{align}
+
+\section*{Effective Action in \( D \) Dimensions}
+After dimensional reduction, the Einstein-Hilbert Lagrangian reduces to:
+\begin{equation}
+\mathcal{L} = \sqrt{-g} \left( R - \frac{1}{2} (\partial \phi)^2 - \frac{1}{4} e^{-2(D-1)\alpha \phi} F_{\mu\nu} F^{\mu\nu} \right)
+\end{equation}
+where \( F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu \) is the field strength of \( A_\mu \).
+
+\section*{Reduction of \( n \)-Form Fields}
+
+For a higher-dimensional \( n \)-form field strength \( \hat{F}_{(n)} = d\hat{A}_{(n-1)} \), the reduction yields:
+\begin{equation}
+\hat{A}_{(n-1)}(x,z) = A_{(n-1)}(x) + A_{(n-2)}(x) \wedge dz
+\end{equation}
+and thus:
+\begin{equation}
+\hat{F}_{(n)} = F_{(n)} + F_{(n-1)} \wedge (dz + A)
+\end{equation}
+with:
+\begin{align}
+F_{(n)} &= dA_{(n-1)} - dA_{(n-2)} \wedge A \\
+F_{(n-1)} &= dA_{(n-2)}
+\end{align}
+
+The kinetic terms reduce to:
+\begin{equation}
+\mathcal{L} = -\frac{1}{2n!} \sqrt{-g} \left( e^{-2(n-1)\alpha \phi} F_{(n)}^2 + e^{2(D-n)\alpha \phi} F_{(n-1)}^2 \right)
+\end{equation}
+
+\section*{Symmetries}
+
+The lower-dimensional theory exhibits:
+\begin{itemize}
+  \item D-dimensional general coordinate invariance,
+  \item U(1) gauge symmetry from \( A_\mu \),
+  \item A shift symmetry of \( \phi \) accompanied by a rescaling of \( A_\mu \), derived from a global scaling symmetry in the higher-dimensional theory.
+\end{itemize}
+
+Kaluza-Klein reduction illustrates how gauge fields and scalar fields emerge from higher-dimensional gravity upon compactification. It serves as a foundational mechanism in string theory and M-theory to relate higher-dimensional unified theories to our observed four-dimensional universe.
+
 
 %The plastic deformation in metallic materials is of a heterogeneous nature, with strain distributed non-uniformly at the inter and intragranular levels. In order to evaluate the capabilities of full-field models for predicting the deformation arrangement, experimental techniques are required to measure the spatially resolved deformation formation in microstructures.
 %

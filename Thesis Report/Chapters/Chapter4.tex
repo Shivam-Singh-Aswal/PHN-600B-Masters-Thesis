@@ -6,57 +6,353 @@
 
 \lhead{Chapter 4. \emph{Title of Chapter Four}} 
 
-\section{Background}
+\section{Rajnish}
 
-\lipsum[2-4]
+\subsection{Photoproduction in the presence of strong magnetic field}
+\label{photoBneq0}
 
-\section{Experimental Results}
-\subsection{Initial microstructure and texture}
+Using the background gauge fields on the $D6$-brane world-volume obtained in \cite{Shivam+Aalok_Photoproduction+EoS}
+\begin{eqnarray}
+\label{Amu-UV-B}
+& & a_t^{x^3}(x^3)={\cal C}_{a_t^{x3}}^{B\ {\rm UV}}\  a_{x^3}^{x^3}(x^3),\nonumber\\
+& & a_\phi^{x^3}(x^3)={\cal C}_{a_\phi^{x3}}^{B\ {\rm UV}}\ ,\nonumber\\
+& & a_t^\rho(\rho)={\cal C}_{a_t^\rho}^{B\ {\rm UV}}\  a_{x^3}^\rho(\rho),\nonumber\\
+& & a_\phi^\rho(\rho)=\frac{{\cal C}_{a_t^\rho}^{B\ {\rm UV}}\ ^2 a_{x^3}^\rho(\rho)}{a_{x^3}^\rho\ '(\rho)},\nonumber\\
+& & a_t^Z(Z)={\cal C}_{tZ,1}^B\ +({\cal C}_{tZ,2}^B\ +{\epsilon_1})
+   e^{-\kappa_{a_t^Z} Z},\nonumber\\
+& & a_{x^3}^Z\ (Z)=\kappa_{a_x3^{Z,1}}+(\kappa_{a_x3^{Z,2}}+{\epsilon_2})
+   e^{-\kappa_{a_x3^Z} Z},\nonumber\\
+& & {\cal C}_{a_t^\rho}^{B\ {\rm UV}}\  =  \pm   \frac{\kappa_{a_x3^{Z,2}}}{{\cal C}_{tZ,2}^B\  {\cal C}_{a_t^{x3}}^{B\ {\rm UV}}\ },\nonumber\\
+& & |{\cal C}_{tZ,1}^B\ |\ll1, |\kappa_{a_x3^{Z,2}}|\ll1,\nonumber\\
+%& & a_\phi^Z\  (Z) = -\frac{{\epsilon_2}^{3/2}
+%   \kappa_\phi^Z  \left(2 {\cal C}_{tZ,1}^B\ ^2 \log
+%   \left({\cal C}_{tZ,1}^B\  e^Z+{\cal C}_{tZ,2}^B\ \right)-2
+%   {\cal C}_{tZ,1}^B\ ^2 Z-2 {\cal C}_{tZ,1}^B\  {\cal C}_{tZ,2}^B\ 
+%   e^{-Z}+{\cal C}_{tZ,2}^B\ ^2 e^{-2 Z}\right)}{2
+%   {\cal C}_{tZ,2}^B\ ^3}+c_1,\nonumber\\
+ & & a_\phi^Z\  (Z) = -{\epsilon_2}^{3/2}\kappa_\phi^Z \Biggl (\frac{
+   2 {\cal C}_{tZ,1}^B\ ^2 \log
+\left({\cal C}_{tZ,1}^B\  e^Z+{\cal C}_{tZ,2}^B\ \right)}{2{\cal C}_{tZ,2}^B\ ^3}- \nonumber\\ & & \quad
+\frac{{2\cal C}_{tZ,1}^B\ ^2 Z-2 {\cal C}_{tZ,1}^B\  {\cal C}_{tZ,2}^B\ 
+e^{-Z}+{\cal C}_{tZ,2}^B\ ^2 e^{-2 Z}}{2{\cal C}_{tZ,2}^B\ ^3} \Biggl) + c_1,\nonumber\\
+& & \frac{\kappa_{a_x3^{Z,2}}^{7/2} {\cal C}_{a_\phi^{x3}}^{B\ {\rm UV}}\ 
+   \kappa_\phi^Z  N^{3/5} \rho  {r_h}^2}{2 \sqrt[3]{3}
+   {\cal C}_{tZ,2}^B\ ^3 {\cal C}_{a_t^{x3}}^{B\ {\rm UV}}\ ^2 {g_s} \alpha
+   _{\theta _2}^2}={\cal C}_{x^3}^B(x^3, \rho)={\cal C}_{x^3}^B\  \rho,
+\end{eqnarray}
+one obtains,
+{\scriptsize
+\begin{eqnarray}
+\label{iG22+iGZZ+SDBI}
+& & G^{x^2x^2} = \frac{4 \sqrt{\pi } \beta  {\cal C}_{x^3x^3}^B\ ^2 \kappa_{a_x3^{Z,2}}^2 {\cal C}_{tZ}^B\  {\cal C}_{x^3\rho}^B\ ^2 \sqrt{{g_s}} \sqrt{N} e^{Z-2
+   \rho } \cos ^2(\phi ) \left({\cal C}_{tZ,1}^B\  e^Z+{\cal C}_{tZ,2}^B\ \right)}{B^2 {\cal C}_{tZ,2}^B\ ^2 {r_h}^2}\nonumber\\
+& &  \quad\quad\quad+\frac{2 \sqrt{\pi }
+   {\cal C}_{x^3x^3}^B\ ^2 \kappa_{a_x3^{Z,2}}^2 {\cal C}_{x^3\rho}^B\ ^2 \sqrt{{g_s}} \sqrt{N} e^{-2 \rho } \cos ^2(\phi )
+   \left({\cal C}_{tZ,1}^B\  e^Z+{\cal C}_{tZ,2}^B\ \right)^2}{B^2 {\cal C}_{tZ,2}^B\ ^2 {r_h}^2},\nonumber\\
+& & G^{ZZ} = -\frac{\beta  \sqrt{\frac{1}{N}} {r_h}^4 e^{12 Z} \left(e^{4 Z}-1\right) \left(6 b^2+e^{2 Z}\right) ({\cal C}_{zz}-2 {\cal C}_{\theta_1z}+2
+  {\cal C}_{\theta_1x})}{2 \sqrt{\pi } {\cal C}_{x^3x^3}^B\ ^4 \kappa_{a_x3^{Z,2}}^4 \sqrt{{g_s}} \left(9 b^2+e^{2 Z}\right) \left({\cal C}_{x^3\rho, 1}^B\ +{\cal C}_{x^3\rho}^B\  e^{-\rho }\right)^4}-\frac{\sqrt{\frac{1}{N}} {r_h}^2 e^{4 Z} \left(e^{4 Z}-1\right)}{2 \sqrt{\pi }
+   {\cal C}_{x^3x^3}^B\ ^2 \kappa_{a_x3^{Z,2}}^2 \sqrt{{g_s}} \left({\cal C}_{x^3\rho,1}^B\ +{\cal C}_{x^3\rho}^B\  e^{-\rho }\right)^2},\nonumber\\
+& & G^{tt}=\frac{2 \sqrt{\pi } \beta  \sqrt{{g_s}} \sqrt{N} \left(6 b^2+e^{2 Z}\right) e^{2 \rho +6 Z} ({\cal C}_{zz}-2 {\cal C}_{\theta_1z}+2{\cal C}_{\theta_1x})}{{\cal C}_{x^3x^3}^B\ ^2
+   \kappa_{a_x3^{Z,2}}^2 \left(e^{4 Z}-1\right) \left(9 b^2+e^{2 Z}\right) \left({\cal C}_{x^3\rho,1}^B\  e^{\rho }+{\cal C}_{x^3\rho}^B\ \right)^2}+\frac{2 \sqrt{\pi } \sqrt{{g_s}} \sqrt{N} e^{2
+   Z}}{{r_h}^2},\nonumber\\
+& & {\cal L}_{\rm DBI}^B = \frac{2 \beta  {\cal C}_{x^3x^3}^B\ ^4 {\cal C}_{tZ,1}^B\  \kappa_{a_x3^{Z,2}}^2 {\cal C}_{tZ}^B\ 
+   {\cal C}_{x^3\rho}^B\ ^2 \rho ^2 (\kappa_{a_x3^{Z,2}}+{\epsilon_2})^2 e^{-4 \rho -2 Z}
+   \left({\cal C}_{x^3\rho,1}^B\  e^{\rho }+{\cal C}_{x^3\rho,2}^B\ \right)^2}{{\cal C}_{tZ,2}^B\ ^2}\nonumber\\
+& & \quad\quad  -\frac{\sqrt{2} N^{3/5} \rho  {r_h}^2}{\sqrt[3]{3} {g_s} \alpha
+   _{\theta _2}^2 \sqrt{{\cal C}_{tZ,2}^B\ ^2} }
+   \sqrt{{\cal C}_{x^3x^3}^B\ ^2 e^{-4 \rho } \left({\cal C}_{x^3\rho,1}^B\  e^{\rho
+}+{\cal C}_{x^3\rho}^B\ \right)^2} \times \nonumber \\ & & \sqrt{   \left({\cal C}_{x^3x^3}^B\ ^2 {\cal C}_{tZ,1}^B\ ^2
+   \kappa_{a_x3^{Z,2}}^2 {\cal C}_{x^3\rho}^B\ ^2 \rho ^2
+   (\kappa_{a_x3^{Z,2}}+{\epsilon_2})^2-B^2 e^{2 \rho } \left({\cal C}_{tZ,2}^B\ ^2
+   {\epsilon_2} (2 \kappa_{a_x3^{Z,2}}+{\epsilon_2})-2 {\cal C}_{tZ,2}^B\ 
+   \kappa_{a_x3^{Z,2}}^2 {\epsilon_1}-\kappa_{a_x3^{Z,2}}^2
+{\epsilon_1}^2\right)\right)} 
+\end{eqnarray}
+}
 
-\lipsum[2-4]
+The $E_{\rm trans}(Z)$ EOM is:
+\begin{eqnarray}
+\label{EtransBUVEOM}
+& & E_{\rm trans}'(Z) \left(-\frac{2 e^{-Z}
+   ({\cal C}_{tZ,2}^B\ +{\epsilon_1})}{{\cal C}_{tZ,1}^B\ }-2\right)+E_{\rm trans}''(Z)+\frac{4 \pi  {g_s} N w^2 e^{-2
+   Z} E_{\rm trans}(Z)}{{r_h}^2}=0 \quad\quad
+\end{eqnarray}
+The solution of (\ref{EtransBUVEOM}) is given by:
+{\scriptsize
+\begin{eqnarray}
+\label{EtransBUVsol-i}
+& & = \exp \left(-\frac{e^{-Z} \left(\sqrt{{\cal C}_{tZ,2}^B\ ^2 {r_h}^2-4 \pi  {\cal C}_{tZ,1}^B\ ^2
+   {g_s} N w^2}+{\cal C}_{tZ,2}^B\  {r_h}\right)}{{\cal C}_{tZ,1}^B\  {r_h}}\right)\nonumber\\
+ & & \quad \times  \Biggl[c_{1,\ \rm UV}^{B\neq0}U\Biggl(\frac{9 \pi ^2 {\cal C}_{tZ,1}^B\ ^4 {g_s}^2 N^2 w^4}{{r_h}^4
+   ({\cal C}_{tZ,2}^B\ +{\epsilon_1})^4}+\frac{3 \pi  {\cal C}_{tZ,1}^B\ ^2 {g_s} N
+w^2}{{r_h}^2 ({\cal C}_{tZ,2}^B\ +{\epsilon_1})^2}+3,3,\nonumber \\ & & \quad-\frac{4 \pi ^2
+   {\cal C}_{tZ,1}^B\ ^3 {g_s}^2 N^2 w^4 e^{-Z}}{{r_h}^4
+   ({\cal C}_{tZ,2}^B\ +{\epsilon_1})^3}-\frac{4 \pi  {\cal C}_{tZ,1}^B\  {g_s} N w^2
+   e^{-Z}}{{r_h}^2 ({\cal C}_{tZ,2}^B\ +{\epsilon_1})}+\frac{2 e^{-Z}
+   ({\cal C}_{tZ,2}^B\ +{\epsilon_1})}{{\cal C}_{tZ,1}^B\ }\Biggl)\Biggr]\nonumber\\
+& & + c_{2,\ \rm UV}^{B\neq0} L_{-\frac{9 {\cal C}_{tZ,1}^B\ ^4 {g_s}^2 N^2 \pi ^2
+   w^4}{({\cal C}_{tZ,2}^B\ +{\epsilon_1})^4 {r_h}^4}-\frac{3 {\cal C}_{tZ,1}^B\ ^2 {g_s}
+   N \pi  w^2}{({\cal C}_{tZ,2}^B\ +{\epsilon_1})^2 {r_h}^2}-3}^2\left(-\frac{4
+   {\cal C}_{tZ,1}^B\ ^3 e^{-Z} {g_s}^2 N^2 \pi ^2 w^4}{({\cal C}_{tZ,2}^B\ +{\epsilon_1})^3
+   {r_h}^4}-\frac{4 {\cal C}_{tZ,1}^B\  e^{-Z} {g_s} N \pi 
+   w^2}{({\cal C}_{tZ,2}^B\ +{\epsilon_1}) {r_h}^2}+\frac{2 e^{-Z}
+   ({\cal C}_{tZ,2}^B\ +{\epsilon_1})}{{\cal C}_{tZ,1}^B\ }\right) \Biggr].\nonumber\\
+& & = c_{1,\ \rm UV}^{B\neq0} e^{2 Z} \left(\frac{2 \pi ^2 {\cal C}_{tZ,1}^B\ ^6 {g_s}^2 N^2 w^4}{{\cal C}_{tZ,2}^B\ ^6
+   {r_h}^4}+\frac{\pi  {\cal C}_{tZ,1}^B\ ^4 {g_s} N w^2}{2 {\cal C}_{tZ,2}^B\ ^4
+   {r_h}^2}+\frac{{\cal C}_{tZ,1}^B\ ^2}{8 {\cal C}_{tZ,2}^B\ ^2}\right)\nonumber\\
+& & + c_{2\ ,\rm UV}^{B\neq0} \left(\frac{177.653 {\cal C}_{tZ,1}^B\ ^4 {g_s}^2 N^2 w^4}{{\cal C}_{tZ,2}^B\ ^4
+   {r_h}^4}-\frac{4 {\cal C}_{tZ,2}^B\ ^2 e^{-2 Z}}{{\cal C}_{tZ,1}^B\ ^2}+\frac{{g_s} N w^2
+   e^{-Z} \left(\frac{2 \pi  {\cal C}_{tZ,1}^B\  {r_h}}{\sqrt{{\cal C}_{tZ,2}^B\ ^2
+   {r_h}^2}}-\frac{12.5664
+   {\cal C}_{tZ,1}^B\ }{{\cal C}_{tZ,2}^B\ }\right)}{{r_h}^2}+1\right).         
+\end{eqnarray}   
+}
 
-\begin{table}
-    \centering
-        \begin{tabular}{ccc}
-        \hline 
-        Sample & Grain Size of tungsten $(\mu m)$ & Phase Fraction of Matrix \\
-        \hline
-         80W-20M & 21 $\pm$ 8 & 0.30 \\
-         85W-15M & 20.7 $\pm$ 8.4 & 0.23 \\
-         90W-10M & 22 $\pm$ 7.2 & 0.19 \\
-         95W-5M & 20.2 $\pm$ 7.3 & 0.13 \\
-         98W-2M & 20 $\pm$ 5 & 0.08 \\
-        \hline
-        \end{tabular}
-    \caption{Grain size and phase fraction of sintered WHA.}
-    \label{Table:grain_size_and_phase_fraction_of_sintered}
-\end{table}
+Let us look at the EOM for $E_{\rm trans}^\beta\ (Z)$:
+{\footnotesize
+\begin{eqnarray}
+\label{EtransbetaBUV}
+& & {\cal X}^{\beta^0} 
+   E_{\rm trans}^\beta\ '(Z)+E_{\rm trans}^\beta\ ''(Z)+E_{\rm trans}^\beta\ (Z) \left(-\left(q^2 {\cal Y}_2^{\beta^0}+w^2
+{\cal Y}_1^{\beta^0}\right)\right)-\nonumber\\& & \quad E_{\rm trans}^{\beta^0}\ (Z) \left(q^2
+   {\cal Y}_2^{\beta}+w^2 {\cal Y}_1^\beta \right)+{\cal X}^\beta 
+   E_{\rm trans}^{\beta^0}\ (Z)=0,\nonumber\\
+& &    
+\end{eqnarray}
+}
+wherein,
+\begin{eqnarray}
+\label{Y1Y2Xprime-defs-i}
+& & {\cal X} \equiv \partial_Z\left({\cal L}_{\rm DBI}^B G^{ZZ} {G^{x^2x^2}}\right) = {\cal X}^{\beta^0} + \beta {\cal X}^{\beta},\nonumber\\
+& & {\cal Y}_1 \equiv \frac{{G^{tt}}}{G^{ZZ}} = {\cal Y}_1^{\beta^0} + \beta {\cal Y}_2^{\beta},\nonumber\\
+& &{\cal Y}_2 \equiv \frac{{G^{x^1x^1}}}{G^{ZZ}} = {\cal Y}_2^{\beta^0} + \beta {\cal Y}_2^{\beta};
+\end{eqnarray}
+\begin{eqnarray}
+\label{Y1Y2Xprime-defs-ii}
+& & {\cal Y}_1^{\beta^0}=-\frac{4 \pi  {\cal C}_{x^3x^3}^B\ ^2
+   \kappa_{a_x3^{Z,2}}^2 {g_s} \sqrt{\frac{1}{N}} N^{3/2}
+   e^{-2 \rho -6 Z} \left({\cal C}_{x^3\rho,1}^B\  e^{\rho
+   }+{\cal C}_{x^3\rho}^B\ \right)^2}{{r_h}^4},\nonumber\\
+& & {\cal Y}_1^\beta = -\frac{4 \pi  \beta  {g_s}
+   N^{3/2} e^{-2 Z} ({\cal C}_{zz}-2 {\cal C}_{\theta_1z}+2
+  {\cal C}_{\theta_1x})}{{r_h}^2};\nonumber\\
+& & {\cal Y}_2^{\beta^0}=-\frac{4 \pi  {\cal C}_{x^3x^3}^B\ ^4
+   {\cal C}_{tZ,1}^B\ ^2 \kappa_{a_x3^{Z,2}}^4 {\cal C}_{x^3\rho, 2}^B\ ^2 {g_s} N e^{-4 \rho -6 Z} \sin ^2(\phi )
+   \left({\cal C}_{x^3\rho,1}^B\  e^{\rho }+{\cal C}_{x^3\rho, 2}^B\ \right)^2}{B^2 {\cal C}_{tZ,2}^B\ ^2 {r_h}^4},\nonumber\\
+& & {\cal Y}_2^{\beta}=-\frac{8 \pi  \beta  {\cal C}_{x^3x^3}^B\ ^4
+   {\cal C}_{tZ,1}^B\  \kappa_{a_x3^{Z,2}}^4 {\cal C}_{tZ}^B\ 
+   {\cal C}_{x^3\rho}^B\ ^2 {g_s} N e^{-4 \rho -6 Z} \sin
+   ^2(\phi ) \left({\cal C}_{x^3\rho,1}^B\  e^{\rho
+   }+{\cal C}_{x^3\rho}^B\ \right)^2}{B^2 {\cal C}_{tZ,2}^B\ ^2
+   {r_h}^4};\nonumber\\
+& & {\cal X}^{\beta^0}=2-\frac{2 {\cal C}_{tZ,2}^B\ 
+   e^{-Z}}{{\cal C}_{tZ,1}^B\ },\nonumber\\
+& & {\cal X}^{\beta}=\frac{2 {\cal C}_{tZ,2}^B\  {\cal C}_{tZ}^B\ 
+   e^{-Z}}{{\cal C}_{tZ,1}^B\ ^2}.
+\end{eqnarray}
+Now, making the following perturbative ansatz up to ${\cal O}(w^4)$,
+\begin{equation}
+\label{EtransuptoW4}
+E_{\rm trans}^\beta\ (Z)=E_{\rm trans}^{w^0,\ \beta}\ (Z)+w^2
+   E_{\rm trans}^{w^2,\ \beta}\ (Z)+w^4 E_{\rm trans}^{w^4,\ \beta}\ (Z).
+\end{equation}
+\begin{itemize}
+\item
+${\cal O}(w^0)$:\\
+{\footnotesize
+\begin{eqnarray}
+\label{EOMw0}
+& & \frac{2 {\cal C}_{tZ,2}^B\  {\cal C}_{tZ}^B\  c_2 e^{-3 Z}
+   \left({\cal C}_{tZ,1}^B\ ^2 e^{2 Z}-4
+{\cal C}_{tZ,2}^B\ ^2\right)}{{\cal C}_{tZ,1}^B\ ^4}+\nonumber \\ & & \quad\quad\left(2-\frac{
+   2 {\cal C}_{tZ,2}^B\  e^{-Z}}{{\cal C}_{tZ,1}^B\ }\right)
+   E_{\rm trans}^{w^0,\ \beta}\ '(Z)+\frac{{\cal C}_{tZ}^B\  c_1 e^Z}{4
+   {\cal C}_{tZ,2}^B\ }+E_{\rm trans}^{w^0,\ \beta}\ ''(Z) = 0,\nonumber\\
+& &    
+\end{eqnarray}
+}
+whose solution is given by:
+{\footnotesize
+\begin{eqnarray}
+\label{EOMw0-sol}
+& & \hskip -0.8in E_{\rm trans}^{w^0,\ \beta}\ (Z) = c_4 +  \frac{1}{12} \Biggl(\frac{24
+   {\cal C}_{tZ,2}^B\ ^2 {\cal C}_{tZ}^B\  c_2 e^{-2
+Z}}{{\cal C}_{tZ,1}^B\ ^3} \nonumber \\ & & +\frac{1}{{\cal C}_{tZ,1}^B\ ^2}{\cal C}_{tZ}^B\  (c_1+12 c_2)
+   e^{-\frac{2 {\cal C}_{tZ,2}^B\  e^{-Z}}{{\cal C}_{tZ,1}^B\ }}
+   \left({\cal C}_{tZ,1}^B\ +2 {\cal C}_{tZ,2}^B\  e^{-Z}\right)
+   {Ei}\left(\frac{2 {\cal C}_{tZ,2}^B\ 
+   e^{-Z}}{{\cal C}_{tZ,1}^B\ }\right)\nonumber\\
+ & &   +\frac{3
+   {\cal C}_{tZ,1}^B\  c_3 e^{-\frac{2 {\cal C}_{tZ,2}^B\ 
+   e^{-Z}}{{\cal C}_{tZ,1}^B\ }-Z} \left({\cal C}_{tZ,1}^B\  e^Z+2
+   {\cal C}_{tZ,2}^B\ \right)}{{\cal C}_{tZ,2}^B\ ^2}+\frac{12
+   {\cal C}_{tZ}^B\  c_2
+   Z}{{\cal C}_{tZ,1}^B\ }-\frac{{\cal C}_{tZ}^B\  c_1
+   e^Z}{{\cal C}_{tZ,2}^B\ }\Biggr) \nonumber\\
+& & = \frac{-2 {\cal C}_{tZ,2}^B\ ^2 {\cal C}_{tZ}^B\  c_1 Z-24
+   {\cal C}_{tZ,2}^B\ ^2 {\cal C}_{tZ}^B\  c_2 Z}{24
+   {\cal C}_{tZ,1}^B\  {\cal C}_{tZ,2}^B\ ^2}-\frac{{\cal C}_{tZ}^B\ 
+   c_1 e^Z}{12 {\cal C}_{tZ,2}^B\ }.
+\end{eqnarray}
+}
+\item
+${\cal O}(w^2)$:\\
+{\scriptsize
+\begin{eqnarray}
+\label{EOMw2}
+& & \frac{1}{{r_h}^4}\Biggl\{4 \pi  {\cal C}_{x^3x^3}^B\ ^2 \kappa_{a_x3^{Z,2}}^2 {g_s}
+   \sqrt{\frac{1}{N}} N^{3/2} e^{-2 (\rho +3 Z)}
+   \left({\cal C}_{x^3\rho,1}^B\  e^{\rho }+{\cal C}_{x^3\rho, 2}^B\ \right)^2 \Biggr\}
+   \nonumber\\
+& & \times \Biggl[\frac{1}{12} \Biggl\{\frac{24
+   {\cal C}_{tZ,2}^B\ ^2 {\cal C}_{tZ}^B\  c_2 e^{-2
+   Z}}{{\cal C}_{tZ,1}^B\ ^3}+\frac{{\cal C}_{tZ}^B\  (c_1+12 c_2)
+   e^{-\frac{2 {\cal C}_{tZ,2}^B\  e^{-Z}}{{\cal C}_{tZ,1}^B\ }}
+   \left({\cal C}_{tZ,1}^B\ +2 {\cal C}_{tZ,2}^B\  e^{-Z}\right)
+   {Ei}\left(\frac{2 {\cal C}_{tZ,2}^B\ 
+   e^{-Z}}{{\cal C}_{tZ,1}^B\ }\right)}{{\cal C}_{tZ,1}^B\ ^2}\nonumber\\
+& &  +\frac{3
+   {\cal C}_{tZ,1}^B\  c_3 e^{-\frac{2 {\cal C}_{tZ,2}^B\ 
+   e^{-Z}}{{\cal C}_{tZ,1}^B\ }-Z} \left({\cal C}_{tZ,1}^B\  e^Z+2
+   {\cal C}_{tZ,2}^B\ \right)}{{\cal C}_{tZ,2}^B\ ^2}+\frac{12
+   {\cal C}_{tZ}^B\  c_2
+   Z}{{\cal C}_{tZ,1}^B\ }-\frac{{\cal C}_{tZ}^B\  c_1
+   e^Z}{{\cal C}_{tZ,2}^B\ }\Biggr\}+c_4\Biggr]\nonumber\\
+   & & +\frac{
+   \pi  {\cal C}_{tZ,1}^B\ ^2 {\cal C}_{tZ}^B\  c_1 {g_s} N
+   e^Z}{{\cal C}_{tZ,2}^B\ ^3 {r_h}^2}+\frac{4.
+   {\cal C}_{tZ}^B\  c_2 {g_s} N e^{-2 Z} \left(\pi 
+   \sqrt{{\cal C}_{tZ,2}^B\ ^2 {r_h}^2}-6.28319
+   {\cal C}_{tZ,2}^B\  {r_h}\right)}{{\cal C}_{tZ,1}^B\ 
+{\cal C}_{tZ,2}^B\  {r_h}^3}\nonumber \\ & & + \left(2-\frac{2
+   {\cal C}_{tZ,2}^B\  e^{-Z}}{{\cal C}_{tZ,1}^B\ }\right)
+   E_{\rm trans}^{w^2,\ \beta}\ '(Z)+E_{\rm trans}^{w^2,\ \beta}\ ''(Z) = 0,\nonumber\\ 
+\end{eqnarray}
+}
+whose solution is given by:
+{\scriptsize
+\begin{eqnarray}
+\label{EOMw2-sol}
+& & E_{\rm trans}^{w^2,\ \beta}\ (Z)=c_3 + \frac{1}{12
+   {\cal C}_{tZ,2}^B\ ^3 {r_h}^2}e^{-\frac{2 {\cal C}_{tZ,2}^B\ 
+   e^{-Z}}{{\cal C}_{tZ,1}^B\ }-Z} \nonumber\\
+& & \quad \times \Biggl[{\cal C}_{tZ,1}^B\  \left(-4
+   \pi  {\cal C}_{tZ,1}^B\  {\cal C}_{tZ}^B\  c_1 {g_s} N e^{2
+   \left(\frac{{\cal C}_{tZ,2}^B\ 
+   e^{-Z}}{{\cal C}_{tZ,1}^B\ }+Z\right)}+3 {\cal C}_{tZ,1}^B\ 
+   {\cal C}_{tZ,2}^B\  c_2 {r_h}^2 e^Z+6 {\cal C}_{tZ,2}^B\ ^2 c_2
+   {r_h}^2\right)\nonumber\\
+& & \quad +4 \pi  {\cal C}_{tZ,2}^B\  {\cal C}_{tZ}^B\ 
+   c_1 {g_s} N \left({\cal C}_{tZ,1}^B\  e^Z+2
+   {\cal C}_{tZ,2}^B\ \right) {Ei}\left(\frac{2
+{\cal C}_{tZ,2}^B\  e^{-Z}}{{\cal C}_{tZ,1}^B\ }\right)\Biggr]  \nonumber \\ & & = -\frac{\pi  {\cal C}_{tZ,1}^B\ ^2 {\cal C}_{tZ}^B\  c_1 {g_s}
+   N e^Z}{3 {\cal C}_{tZ,2}^B\ ^3 {r_h}^2}-\frac{\pi 
+   {\cal C}_{tZ,1}^B\  {\cal C}_{tZ}^B\  c_1 {g_s} N Z}{3
+   {\cal C}_{tZ,2}^B\ ^2 {r_h}^2}.
+\end{eqnarray}
+}
+\item
+${\cal O}(w^4)$:\\
+\begin{eqnarray}
+\label{EOMw4}
+& & \hskip -0.5in \frac{1}{{{r_h}^4}}4 \pi  {\cal C}_{x^3x^3}^B\ ^2 \kappa_{a_x3^{Z,2}}^2 {g_s}
+   \sqrt{\frac{1}{N}} N^{3/2} e^{-2 (\rho +3 Z)}
+    \left({\cal C}_{x^3\rho,1}^B\  e^{\rho }+{\cal C}_{x^3\rho, 2}^B\ \right)^2 \nonumber \\ & & \left(-\frac{\pi  {\cal C}_{tZ,1}^B\ 
+   {\cal C}_{tZ}^B\  c_1 {g_s} N \left({\cal C}_{tZ,1}^B\ 
+   e^Z+{\cal C}_{tZ,2}^B\  Z\right)}{3 {\cal C}_{tZ,2}^B\ ^3
+   {r_h}^2}\right)(Z)\nonumber\\
+& & +\frac{4 \pi ^2
+   {\cal C}_{tZ,1}^B\ ^4 {\cal C}_{tZ}^B\  c_1 {g_s}^2 N^2
+   e^Z}{{\cal C}_{tZ,2}^B\ ^5 {r_h}^4}+\frac{355.306
+   {\cal C}_{tZ,1}^B\ ^2 {\cal C}_{tZ}^B\  c_2 {g_s}^2 N^2
+        e^{-Z}}{{\cal C}_{tZ,2}^B\ ^3 {r_h}^4}+ \nonumber \\ & & \left(2-\frac{2
+   {\cal C}_{tZ,2}^B\  e^{-Z}}{{\cal C}_{tZ,1}^B\ }\right)
+   E_{\rm trans}^{w^4,\ \beta}\ '(Z) + E_{\rm trans}^{w^4,\ \beta}\ ''(Z)=0,
+\end{eqnarray}
+whose solution is given by:
+{\footnotesize
+\begin{eqnarray}
+\label{EOMw4-sol}
+& & \hskip -0.8in E_{\rm trans}^{w^4,\ \beta}\ (Z) = c_3 + \frac{{\cal C}_{tZ,1}^B\  e^{-\frac{2
+   {\cal C}_{tZ,2}^B\  e^{-Z}}{{\cal C}_{tZ,1}^B\ }-Z} }{12
+   {\cal C}_{tZ,2}^B\ ^5 {r_h}^4} \times \Biggl(-16 \pi
+   ^2 {\cal C}_{tZ,1}^B\ ^3 {\cal C}_{tZ}^B\  c_1 {g_s}^2 N^2
+   e^{2 \left(\frac{{\cal C}_{tZ,2}^B\ 
+   e^{-Z}}{{\cal C}_{tZ,1}^B\ }+Z\right)}+ \nonumber \\ 
+& & 3 {\cal C}_{tZ,1}^B\ 
+   {\cal C}_{tZ,2}^B\ ^3 c_2 {r_h}^4 e^Z+16 \pi ^2
+   {\cal C}_{tZ,1}^B\  {\cal C}_{tZ,2}^B\  {\cal C}_{tZ}^B\  c_1
+   {g_s}^2 N^2 \left({\cal C}_{tZ,1}^B\  e^Z+2
+   {\cal C}_{tZ,2}^B\ \right)\nonumber\\
+& & \times    {Ei}\left(\frac{2
+   {\cal C}_{tZ,2}^B\  e^{-Z}}{{\cal C}_{tZ,1}^B\ }\right)+6
+   {\cal C}_{tZ,2}^B\ ^4 c_2 {r_h}^4\Biggr) \nonumber \\ 
+& & = -\frac{4 \pi ^2 {\cal C}_{tZ,1}^B\ ^4 {\cal C}_{tZ}^B\  c_1
+   {e^Z} {g_s}^2 N^2}{3 {\cal C}_{tZ,2}^B\ ^5
+   {r_h}^4}-\frac{4 \pi ^2 {\cal C}_{tZ,1}^B\ ^3
+   {\cal C}_{tZ}^B\  c_1 {g_s}^2 N^2 Z}{3
+   {\cal C}_{tZ,2}^B\ ^4 {r_h}^4}.
+\end{eqnarray}
+}
+\end{itemize}
+Thus,
+{\footnotesize
+\begin{eqnarray}
+\label{dEtransoverEtransuptobetauptow4}
+& & \hskip -0.8in \left(\frac{E_{\rm trans}\ '(Z)}{E_{\rm trans}(Z)}\right) = 2 + \frac{c_2 {g_s} N
+   w^2 (\beta  {\cal C}_{tZ}^B\  (100.5\, -201.1 Z)+201.1
+   {\cal C}_{tZ,1}^B\ )}{{\cal C}_{tZ,1}^B\  c_1 e^{2Z}
+   {r_h}^2}\nonumber \\ 
+& & -\frac{2842.4 {\cal C}_{tZ,1}^B\ ^2 c_2 {g_s}^2
+   N^2 w^4}{{\cal C}_{tZ,2}^B\ ^2 c_1 e^{2Z}
+   {r_h}^4}s   +\frac{2 \beta  {\cal C}_{tZ,2}^B\ 
+   {\cal C}_{tZ}^B\ }{3 {\cal C}_{tZ,1}^B\ ^2 e^Z}.
+\end{eqnarray}
+}
+Hence,
+{\scriptsize
+\begin{eqnarray}
+\label{Chi2}
+& & \chi_2 = \frac{{\cal C}_{x^3x^3}^B\ ^2 {\cal C}_{tZ,1}^B\ ^2 \kappa_{a_x3^{Z,2}}^2
+   {\cal C}_{x^3\rho}^B\ ^3 N^{3/5} \rho ^2 e^{8 Z-2 \rho } \cos ^2(\phi )
+  }{B^2
+   {\cal C}_{tZ,2}^B\ ^5 c_1 {g_s} {r_h}^2 \alpha _{\theta _2}^2
+   \left({\cal C}_{x^3\rho,1}^B\  e^{\rho }+{\cal C}_{x^3\rho}^B\ \right)}\nonumber\\
+& & \quad\times  \bigl(-2787.15 {\cal C}_{tZ,1}^B\ ^3 c_2 {g_s}^2 N^2 w^4+{\cal C}_{tZ,1}^B\ 
+   {\cal C}_{tZ,2}^B\ ^2 {r_h}^2 \left(197.191 c_2 {g_s} N w^2+1.96112 c_1
+   {r_h}^2 e^{2 Z}\right)\nonumber \\ 
+& & \quad -197.191 \beta  {\cal C}_{tZ,2}^B\ ^2
+   {\cal C}_{tZ}^B\  c_2 {g_s} N {r_h}^2 w^2 (Z-0.5)\bigl).\nonumber\\
+& &    
+\end{eqnarray}
+}
+Assuming $(4 \pi g_s N)^{1/N_{>4}} = \frac{r_h}{{\cal R}_{D5/\overline{D5}}} e^{Z_{\rm UV}}$, and $r_h (g_s = 0.1, M = N_f = 3)\sim e^{-0.3 N^{1/3}} l_s$, and $w\sim \frac{r_h^{\kappa_w}}{l_s^2}$, 
+$\frac{1.96 e^{2 Z_{\rm UV}} r_h^2 C[1]}{ 
+ 197.19 g_s N w^2 C[2]} \sim \frac{\left(l_s^2{\cal O} (1) g_s N)^{2/N_{>4}} r_h^2 C[1]\right)}{\left({\cal O} (10^2) g_s N r_h^{2 \kappa_w} C[2]\right)}$. Therefore, $\frac{{\cal O} (1) 
+    (g_s N)^{2/N_{>4}} r_h^2}{({\cal O} (10^2) g_s N r_h^{2 \kappa_w})} \sim 
+    (g_s N)^{2/N_{>4} - 1} e^{-0.6 (1 - \kappa_w) N^{1/3}}$. Now, $2/N_{>4} < 1/2$, hence $2/N_{>4} - 1 < 0$. Hence, in a large - $N$ limit, $\left| \frac{{\cal O} (w^0)}{{\cal O} (w)}\right| \ll 1$.
 
-\lipsum[2-4]
-
-\section{Texture evolution during uniaxial compression}
-\label{Texture evolution during uniaxial compression}
-
-\lipsum[2-4]
-
-% \begin{figure}
-%     \centering
-%     \includegraphics[width=\textwidth,keepaspectratio]{Pictures/Chap4_fig_true_stress_true_strain_and_work_hardening.png}
-%     \caption{(a) True stress-true strain plot of WHA (b) Work hardening rate vs $\sigma -{\sigma }_0$ of WHA (c) Vicker hardness number of compressed samples.}
-%     \label{Fig4.2:Chap4_true_stress_true_strain_and_work_hardening}
-% \end{figure}
-
-
-\section{Summary}
-
-\lipsum[1]
-
-\begin{enumerate}
-    \item \lipsum[1]
-    
-    \item \lipsum[1]
-    
-    \item \lipsum[1]
-    
-\end{enumerate}
+Writing $N^{\frac{1}{N_{>4} }}=\frac{\sqrt[4]{N}}{{\kappa_{Z_{\rm UV}}}}, N_{>4} \in\mathbb{Z}, N_{>4} >4$,
+one obtains the following:
+\begin{eqnarray}
+\label{spectral-functionoverwNsq-B}
+& & \hskip -0.4in \frac{{\chi_2}}{N^2  w}\sim {\cal C}_{x^3x^3}^B\ ^2 {\cal C}_{tZ,1}^B\ ^2
+   \kappa_{a_x3^{Z,2}}^2 c_2 N w
+   \left({\cal C}_{x^3\rho}^B\ 
+   ({\cal C}_{x^3\rho}^B\ -8. {\cal C}_{x^3\rho,1}^B\ )-8. {\cal C}_{x^3\rho,1}^B\ ^2
+   {Li}_3\left(-\frac{{\cal C}_{x^3\rho,2}^B\ }{{\cal C}_{x^3\rho,1}^B\ }\right)\right) \nonumber \\ 
+& & \times \frac{(\beta  {\cal C}_{tZ}^B\ 
+   {Z_{\rm UV}}-{\cal C}_{tZ,1}^B\ ) }{{\alpha_{\rm ZUV}}^8 B^2 {\cal C}_{tZ,2}^B\ ^3
+   c_1}\times \ e^{-\frac{4
+   {\cal C}_{tZ,1}^B\  w^2 ({\cal C}_{tZ,1}^B\ +\beta 
+   {\cal C}_{tZ}^B\ 
+   {Z_{\rm UV}})}{{\cal C}_{tZ,2}^B\ ^2
+   T^2}}   
+\end{eqnarray} 
+If one adds a term quadratic in $\tilde{w}^2$ in the numerator of the RHS of (\ref{spectral-functionoverwNsq-B}),
+\begin{equation}
+\label{extra-term-chi-over-wtilde}
+\frac{{\chi_2}}{N^2  \tilde{w} T^2} = \frac{\kappa_1 \tilde{w} e^{-\kappa_2 \tilde{w}^2} + \kappa_3 \tilde{w}^2}{\tilde{B}^2},
+\end{equation}
+one obtains the comparative plot in Fig. {3}.
 

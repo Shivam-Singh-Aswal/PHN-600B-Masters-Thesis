@@ -220,8 +220,25 @@ This is to certify that the above statement made by the candidate is correct to 
 
 %\lipsum[1]
 
-Abstract of my thesis
+This thesis investigates lower-dimensional theories of gravity and their dual conformal field theories within the framework of the AdS/CFT correspondence and the Holographic Principle. Emphasis is placed on two- and three-dimensional models where gravity is coupled to ModMax electrodynamics --- a non-linear generalization of Maxwell theory that retains conformal symmetry and the SO(2) electric-magnetic duality. The central theme of the thesis, particularly in Chapter 3, is the calculation and comparison of central charges in these lower-dimensional theories, which play a crucial role in characterizing the dual boundary CFTs.
 
+We begin with a four-dimensional Einstein-Hilbert action coupled to the ModMax Lagrangian. The theory is then dimensionally reduced to obtain effective three-dimensional and two-dimensional gravitational actions. This reduction is carried out using consistent metric ansätze, which preserve the conformal structure and allow us to derive equations of motion, stress-energy tensors, and gauge field dynamics in the lower-dimensional frameworks.
+
+In the three-dimensional case, the central charge is computed by analyzing the transformation of the boundary stress-energy tensor under diffeomorphisms and accompanying gauge transformations that preserve the boundary conditions. The coefficient of the anomalous term in the stress tensor transformation gives the central charge:
+\[
+c_{3D} = \frac{1}{144\sqrt{3}\pi G_2}(\alpha - 12\beta\alpha + 2\alpha^2),
+\]
+where $\alpha$ is a coupling constant and $\beta$ is the ModMax non-linearity parameter. This expression generalizes the result for the Maxwell case, which is recovered in the $\beta \to 0$ limit.
+
+Subsequently, a further reduction from three to two dimensions is performed to derive the 2D effective action. This process also involves an appropriate choice of boundary conditions and the use of the Fefferman-Graham gauge to facilitate asymptotic analysis. The 2D central charge is then extracted using a similar method, analyzing the transformation of the boundary stress-energy tensor under combined conformal and gauge symmetries.
+
+A key result of the thesis is the holographic scaling relation found between the central charges in 3D and 2D:
+\[
+c_{2D} = 2\pi e^{-\Phi} c_{3D},
+\]
+where $\Phi$ is the dilaton field arising from dimensional reduction. This relation confirms the consistency of the dimensional hierarchy and provides a strong check on the holographic interpretation of the reduced theories. It also highlights how ModMax nonlinearity influences central charge behavior across dimensions, while ensuring smooth matching with the linear Maxwell limit.
+
+In conclusion, this work demonstrates that central charge calculations in ModMax-coupled gravity are tractable in both 2D and 3D settings. The comparison between these cases not only validates the dimensional reduction procedure but also supports the broader structure of holography in lower dimensions. The thesis thus provides new insights into how nonlinear electrodynamics modifies conformal field theory data in the gravitational duals.
 }
 
 
@@ -242,10 +259,20 @@ Abstract of my thesis
 \lhead{\emph{Acknowledgements}}
 \acknowledgements{\addtocontents{toc}{} % Add a gap in the Contents, for aesthetics
 
+%I would like to express my sincere gratitude to my supervisor, \supnameA, for his invaluable guidance and support throughout my research journey. His expertise and insights have been instrumental in shaping my understanding of the subject matter and have greatly contributed to the success of this thesis. 
+%
+%This thesis work marks the end of my journey as an undergraduate Physics student, during which I have had the privilege of learning from many exceptional professors. I would like to extend my heartfelt thanks to all my professors for their unwavering support and encouragement, especially Professor Aalok Misra, who has been a source of constant support and inspiration. I would like to express my gratitude to my friends with whom I had innumerable discussions
+%on Physics, Math and life in general. 
 
-Acknowledgements 
+I would like to express my sincere gratitude to my supervisor, \supnameA, for his invaluable guidance and support throughout my research journey. His expertise and insights have been instrumental in shaping my understanding of the subject matter and have greatly contributed to the success of this thesis.
 
-I want to thank...
+This thesis work marks the end of my journey as an undergraduate Physics student, during which I have had the privilege of learning from many exceptional professors. I would like to extend my heartfelt thanks to all my professors for their unwavering support and encouragement, especially Professor Aalok Misra, who has been a source of constant support and inspiration.
+
+I would like to express my gratitude to my friends with whom I had innumerable discussions on Physics, Math, and life in general. Their companionship and perspectives enriched my academic experience and made the journey all the more enjoyable.
+
+I am deeply grateful to my parents for their unconditional love, patience, and encouragement throughout my academic journey. Their belief in me has been a constant source of strength and motivation, especially during challenging times. Without their support, this thesis and the completion of my degree would not have been possible.
+
+Finally, I would like to thank everyone who, in one way or another, contributed to my personal and academic growth over the past few years. Each interaction, challenge, and success has helped shape who I am today, and for that, I am truly thankful.
 
 }
 \clearpage % Start a new page
@@ -303,16 +330,16 @@ I want to thank...
 %	SYMBOLS
 %----------------------------------------------------------------------------------------
 
-\clearpage % Start a new page
-
-\lhead{\emph{Symbols}} % Set the left side page header to "Symbols"
-
-\listofnomenclature{lll} % Include a list of Symbols (a two column table)
-{
-% Symbol & Name & Unit \\
-$C_g$ & contiguity \\
-$\phi_d$ & Dihedral angle
-}
+%\clearpage % Start a new page
+%
+%\lhead{\emph{Symbols}} % Set the left side page header to "Symbols"
+%
+%\listofnomenclature{lll} % Include a list of Symbols (a two column table)
+%{
+%% Symbol & Name & Unit \\
+%$C_g$ & contiguity \\
+%$\phi_d$ & Dihedral angle
+%}
 
 %\ListofPublications{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
 %
@@ -354,7 +381,7 @@ $\phi_d$ & Dihedral angle
 %\vfill{}
 
 
-\clearpage % Start a new page
+%\clearpage % Start a new page
 
 
 

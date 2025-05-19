@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.26)  17 MAY 2025 23:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.26)  19 MAY 2025 13:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -651,7 +651,7 @@ Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-<Pictures/logo_color.jpg, id=124, 616.82445pt x 605.26125pt>
+<Pictures/logo_color.jpg, id=164, 616.82445pt x 605.26125pt>
 File: Pictures/logo_color.jpg Graphic file (type jpg)
 <use Pictures/logo_color.jpg>
 Package pdftex.def Info: Pictures/logo_color.jpg  used on input line 94.
@@ -709,53 +709,33 @@ Package pdftex.def Info: Pictures/logo_color.jpg  used on input line 175.
 [5
 
 ]
+
+[6]
 ------------------------------------------------------------------------------
  Acknowledgements
 ------------------------------------------------------------------------------
 
 
-[6
+[7
 
 ]
 ------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
-(.texfiles/main.toc
-
-Package natbib Warning: Citation `brown1986central' on page vii undefined on input line 24.
 
 
-Package natbib Warning: Citation `castro2019' on page vii undefined on input line 25.
+[8
 
 
-Package natbib Warning: Citation `hemant2023' on page vii undefined on input line 28.
+] (.texfiles/main.toc
 
-
-
-[7
-
-
-])
+[9])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
 
 
-[8]
-------------------------------------------------------------------------------
- Symbols
-------------------------------------------------------------------------------
-
-
-[9
-
-
-
-]
-
-[10
-
-]
+[10]
 ------------------------------------------------------------------------------
  Dedicatory
 ------------------------------------------------------------------------------
@@ -784,114 +764,111 @@ Chapter 1.
 [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 45.
+(hyperref)                removing `math shift' on input line 42.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 45.
+(hyperref)                removing `subscript' on input line 42.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 45.
+(hyperref)                removing `math shift' on input line 42.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 45.
+(hyperref)                removing `math shift' on input line 42.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 45.
+(hyperref)                removing `subscript' on input line 42.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 45.
+(hyperref)                removing `math shift' on input line 42.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 47.
+(hyperref)                removing `math shift' on input line 46.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 47.
+(hyperref)                removing `subscript' on input line 46.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 47.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 50.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 50.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 50.
+(hyperref)                removing `math shift' on input line 46.
 
 
 
 [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 57.
+(hyperref)                removing `math shift' on input line 92.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 57.
+(hyperref)                removing `subscript' on input line 92.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 57.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 57.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 57.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 57.
+(hyperref)                removing `math shift' on input line 92.
 
 
 
 [5]
-Overfull \hbox (6.1879pt too wide) in paragraph at lines 98--99
-[]\OT1/cmr/m/n/10.95 The beauty of JT grav-ity lies in its ex-act solv-abil-ity and the abil-ity to study non-perturbative
- []
-
-
 
 [6]
-Overfull \hbox (7.00006pt too wide) in paragraph at lines 126--127
-\OT1/cmr/m/n/10.95 ap-pear-ance of a soft mode gov-erned by the Schwarzian ac-tion. By con-sid-er-ing reparametriza-
- []
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 139.
 
 
 
 [7]
 
-[8]) (./Chapters/Chapter2.tex
+[8]
+Overfull \hbox (6.1879pt too wide) in paragraph at lines 180--181
+[]\OT1/cmr/m/n/10.95 The beauty of JT grav-ity lies in its ex-act solv-abil-ity and the abil-ity to study non-perturbative
+ []
+
+
 
 [9]
+Overfull \hbox (7.00006pt too wide) in paragraph at lines 208--209
+\OT1/cmr/m/n/10.95 ap-pear-ance of a soft mode gov-erned by the Schwarzian ac-tion. By con-sid-er-ing reparametriza-
+ []
 
-[10
 
-]
+
+[10]
+
+[11]) (./Chapters/Chapter2.tex
+
+[12]
 Chapter 2.
 ------------------------------------------------------------------------------
  2 Literature Review
 ------------------------------------------------------------------------------
-
-Package natbib Warning: Citation `HartmanStrominger' on page 11 undefined on input line 13.
-
-
-Package natbib Warning: Citation `brown1986central' on page 11 undefined on input line 23.
-
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\begingroup' on input line 23.
@@ -921,156 +898,193 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\new@ifnextchar' on input line 23.
 
 
-Package natbib Warning: Citation `castro2019' on page 11 undefined on input line 26.
+
+[13
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 26.
+(hyperref)                removing `math shift' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 26.
+(hyperref)                removing `\begingroup' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 26.
+(hyperref)                removing `\<let>-command' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 26.
+(hyperref)                removing `\NAT@ctype' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 26.
+(hyperref)                removing `\z@' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 26.
+(hyperref)                removing `\let' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 26.
+(hyperref)                removing `\let' on input line 34.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 26.
+(hyperref)                removing `\new@ifnextchar' on input line 34.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 26.
-
-
-Package natbib Warning: Citation `castro2019' on page 11 undefined on input line 29.
-
-
-
-[11]
-
-Package natbib Warning: Citation `fefferman1985conformal' on page 12 undefined on input line 47.
-
-
-
-[12]
-
-Package natbib Warning: Citation `hemant2023' on page 13 undefined on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 77.
-
-
-
-[13]) (./Chapters/Chapter3.tex
 
 [14]
+
+[15]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\NAT@ctype' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\let' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\let' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\NAT@ctype' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\let' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\let' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 85.
+
+
+
+[16]) (./Chapters/Chapter3.tex
+
+[17]
+
+[18
+
+]
 Chapter 3.
 ------------------------------------------------------------------------------
- 3 Materials and Methods
+ 3 ModMax lagrangian and comparision between central charge in 2D and 3D
 ------------------------------------------------------------------------------
 
 
-[15
+[19]
 
-]) (./Appendices/AppendixA.tex
+[20]
+Overfull \hbox (18.84512pt too wide) detected at line 70
+[][][]\OMS/cmsy/m/n/10.95 ^^@[] \OT1/cmr/m/n/10.95 + 3^^C \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 ^^T [] \OT1/cmr/m/n/10.95 = 0
+ []
 
-[16]
+
+
+[21]
+
+[22]) (./Appendices/AppendixA.tex
+
+[23]
+
+[24
+
+]
 Appendix A.
 ------------------------------------------------------------------------------
  A Kaluza-Klein reduction scheme
 ------------------------------------------------------------------------------
-)
 
-[17
 
-]
+[25]
 
-[18
+[26])
+
+[27]
+
+[28
 
 ]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-(.texfiles/main.bbl)
+(.texfiles/main.bbl
 
-Package natbib Warning: There were undefined citations.
+[29
 
+])
 
-
-[19
-
-] (.texfiles/main.aux)
+[30] (.texfiles/main.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 23257E7BDBF0BA0D037E7029A7D5E100;6115.
+(rerunfilecheck)             Checksum: 15E0C3F9996C4C8A2E74CE36CE47C70E;9327.
  ) 
 Here is how much of TeX's memory you used:
- 17924 strings out of 473362
- 281575 string characters out of 5692597
- 788447 words of memory out of 5000000
- 40629 multiletter control sequences out of 15000+600000
- 576005 words of font info for 100 fonts, out of 8000000 for 9000
+ 18071 strings out of 473362
+ 284005 string characters out of 5692597
+ 794447 words of memory out of 5000000
+ 40693 multiletter control sequences out of 15000+600000
+ 576386 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,12n,93p,1820b,636s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on .texfiles/main.pdf (31 pages, 3210303 bytes).
+ 79i,12n,93p,1820b,706s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on .texfiles/main.pdf (42 pages, 3270973 bytes).
 PDF statistics:
- 465 PDF objects out of 1000 (max. 8388607)
- 387 compressed objects within 4 object streams
- 88 named destinations out of 1000 (max. 500000)
- 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 673 PDF objects out of 1000 (max. 8388607)
+ 578 compressed objects within 6 object streams
+ 170 named destinations out of 1000 (max. 500000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 

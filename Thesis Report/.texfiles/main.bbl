@@ -1,13 +1,62 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{shanthraj2015numerically}
-P.~Shanthraj, P.~Eisenlohr, M.~Diehl, and F.~Roters, ``Numerically robust spectral methods for crystal plasticity simulations of heterogeneous materials,'' {\em International Journal of Plasticity}, vol.~66, pp.~31--45, 2015.
+\bibitem{Hartman:2008dq}
+T.~Hartman and A.~Strominger, ``{Central Charge for AdS(2) Quantum Gravity},'' {\em JHEP}, vol.~04, p.~026, 2009.
 
-\bibitem{kiran2015effect}
-U.~R. Kiran, A.~Panchal, M.~Sankaranarayana, G.~N. Rao, and T.~Nandy, ``Effect of alloying addition and microstructural parameters on mechanical properties of 93\% tungsten heavy alloys,'' {\em Materials Science and Engineering: A}, vol.~640, pp.~82--90, 2015.
+\bibitem{Brown:1986nw}
+J.~D. Brown and M.~Henneaux, ``{Central Charges in the Canonical Realization of Asymptotic Symmetries: An Example from Three-Dimensional Gravity},'' {\em Commun. Math. Phys.}, vol.~104, pp.~207--226, 1986.
 
-\bibitem{jahan2016multi}
-A.~Jahan, K.~L. Edwards, and M.~Bahraminasab, {\em Multi-criteria decision analysis for supporting the selection of engineering materials in product design}.
-\newblock Butterworth-Heinemann, 2016.
+\bibitem{Castro:2008ne}
+A.~Castro, D.~Grumiller, F.~Larsen, and R.~McNees, ``{Holographic Description of AdS(2) Black Holes},'' {\em JHEP}, vol.~11, p.~052, 2008.
+
+\bibitem{Fefferman:1985}
+C.~Fefferman and C.~R. Graham, ``{Conformal invariants},'' in {\em ´Elie Cartan et les math´ematiques d’aujourd’hui - Lyon, 25-29 juin 1984}, no.~S131 in Ast\'erisque, p.~22, 1985.
+
+\bibitem{rathi2023ads2}
+H.~Rathi and D.~Roychowdhury, ``{AdS$_2$ holography and ModMax},'' {\em arXiv preprint arXiv:2303.14379}, 2023.
+
+\bibitem{born1934foundations}
+M.~Born and L.~Infeld, ``Foundations of the new field theory,'' {\em Proceedings of the Royal Society of London A}, vol.~144, no.~852, pp.~425--451, 1934.
+
+\bibitem{Dharewa2024}
+M.~Dharewa, ``Black hole entropy and 2d holography,'' master's thesis, Indian Institute of Technology Roorkee, Roorkee, India, May 2024.
+\newblock Supervisor: Dr. Dibakar Roychowdhury.
+
+\bibitem{cadoni1996dualities}
+M.~Cadoni, ``Dualities of {3D} dilaton gravity,'' {\em Physical Review D}, vol.~54, no.~12, pp.~7322--7329, 1996.
+
+\bibitem{myers2011holographic}
+R.~C. Myers, S.~Sachdev, and A.~Singh, ``Holographic quantum critical transport without self-duality,'' {\em Physical Review D}, vol.~83, no.~6, p.~066017, 2011.
+
+\bibitem{witten1998anti}
+E.~Witten, ``Anti-de sitter space and holography,'' {\em Advances in Theoretical and Mathematical Physics}, vol.~2, no.~2, pp.~253--291, 1998.
+
+\bibitem{jackiw1985lower}
+R.~Jackiw, ``Lower dimensional gravity,'' {\em Nuclear Physics B}, vol.~252, pp.~343--356, 1985.
+
+\bibitem{teitelboim1983gravitation}
+C.~Teitelboim, ``Gravitation and hamiltonian structure in two space-time dimensions,'' {\em Physics Letters B}, vol.~126, pp.~41--45, 1983.
+
+\bibitem{sachdev1993gapless}
+S.~Sachdev and J.~Ye, ``Gapless spin fluid ground state in a random, quantum heisenberg magnet,'' {\em Physical Review Letters}, vol.~70, no.~21, pp.~3339--3342, 1993.
+
+\bibitem{Kitaev.2015}
+A.~Kitaev, ``A simple model of quantum holography.'' Talk given at KITP strings seminar and Entanglement program, Feb 12, Apr 7, and May 27 2015.
+
+\bibitem{Maldacena:2016hyc}
+J.~Maldacena and D.~Stanford, ``{Remarks on the Sachdev-Ye-Kitaev model},'' {\em Phys. Rev. D}, vol.~94, no.~10, p.~106002, 2016.
+
+\bibitem{Lala:2020jdr}
+A.~Lala, H.~Rathi, and D.~Roychowdhury, ``{Jackiw-Teitelboim gravity and the models of a Hawking-Page transition for 2D black holes},'' {\em Phys. Rev. D}, vol.~102, no.~10, p.~104024, 2020.
+
+\bibitem{Narayan:2020pyy}
+K.~Narayan, ``{Aspects of two-dimensional dilaton gravity, dimensional reduction, and holography},'' {\em Phys. Rev. D}, vol.~104, no.~2, p.~026007, 2021.
+
+\bibitem{Castro:2018ogi}
+A.~Castro, F.~Larsen, and I.~Papadimitriou, ``{5D rotating black holes and the nAdS2/nCFT1 correspondence},'' {\em JHEP}, vol.~10, p.~042, 2018.
+
+\bibitem{Rathi:2024}
+H.~Rathi, {\em {AdS2/CFT1 at finite density and holographic aspects of 2D black holes}}.
+\newblock PhD thesis, Indian Institute of Technology Roorkee, Roorkee, India, 2024.
 
 \end{thebibliography}

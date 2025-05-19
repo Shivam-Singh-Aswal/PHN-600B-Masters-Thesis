@@ -10,7 +10,7 @@ It is natural to assume that if a problem has been solved in the $\left(3+1  \ri
 
 Instead of writing the action from scratch in lower dimensions we have another alternative which is to use the \textit{Kaluza-Klein} reduction scheme. [\ref{AppendixA}]
 
-In the following reviewed papers, we will see how the authors have formulated the 2D gravity theories coupled with the electromagentic theories (Maxwell and ModMax). Further due to Hartman and Strominger \cite{HartmanStrominger} we know that the conformal diffeomorphisms have to be provided with appropriate gauge transformations in order to preserve the boundary conditions. Further they noted that these transformations satisfy the \textit{Virosoro algebra} (\ref{subsection:central-charge}) and have a corresponding central charge.
+In the following reviewed papers, we will see how the authors have formulated the 2D gravity theories coupled with the electromagentic theories (Maxwell and ModMax). Further due to Hartman and Strominger \cite{Hartman:2008dq} we know that the conformal diffeomorphisms have to be provided with appropriate gauge transformations in order to preserve the boundary conditions. Further they noted that these transformations satisfy the \textit{Virosoro algebra} (\ref{subsection:central-charge}) and have a corresponding central charge.
 
 We use the relations 
 \begin{equation}
@@ -20,13 +20,21 @@ where $T^{ab}$ is the energy-momentum tensor, $J^a$ is the current density on th
 
 We solve for the form of the required $U(1)$ gauge transformation so as to preserve the boundary conditions upon diffeomorphisms. Further the transformed stress-energy tensor under the combined effect of both the transformations reveals the central-charge. 
 
-\section{Brown-Heanneux Central charge \cite{brown1986central}}
+\section{Brown-Heanneux Central charge \cite{Brown:1986nw}}
+This paper by J. D. Brown and M. Henneaux dives into central charges in the canonical realization of asymptotic symmetries, focusing on three-dimensional gravity with a negative cosmological constant. They show that global charges in gauge theories can yield a nontrivial central extension of the asymptotic symmetry algebra at the classical level. In three-dimensional gravity, the asymptotic symmetry group depends on boundary conditions: either $R \times SO(2)$ or the two-dimensional pseudo-conformal group. For the latter, a central charge, identified as the Virasoro central charge, appears in the algebra of canonical generators. The key equation for the Poisson bracket algebra is:
+\begin{equation}
+\{H[\xi], H[\eta]\} = H[[\xi, \eta]] + K[\xi, \eta],
+\end{equation}
+where $K[\xi, \eta]$ represents the central charge. The Hamiltonian generator is given by:
+\begin{equation}
+H[\xi] = \int d^n x \xi^A(x) \phi_A(x) + J[\xi].
+\end{equation}
+The study highlights how boundary conditions shape the symmetry group and demonstrates central charges in the conformal group case. This work has implications for understanding gauge theories and gravity, particularly in lower dimensions, and suggests broader applications, to four-dimensional gravity. The authors emphasize the role of asymptotic symmetries in defining global charges.
 
-
-\section{$(1+1)D$ gravity coupled to constant EM field  \cite{castro2019}}
+\section{$(1+1)D$ gravity coupled to constant EM field  \cite{Castro:2008ne}}
 \label{castro-paper}
 
-In a paper authored by \textit{Castro et al.} \cite{castro2019}, the authors explore the dynamics of a $(1+1)D$ JT gravity theory coupled to a constant electromagnetic field strength. The paper delves into the implications of this coupling on the gravitational dynamics and the resulting spacetime structure. 
+In a paper authored by \textit{Castro et al.} \cite{Castro:2008ne}, the authors explore the dynamics of a $(1+1)D$ JT gravity theory coupled to a constant electromagnetic field strength. The paper delves into the implications of this coupling on the gravitational dynamics and the resulting spacetime structure. 
 
 \subsection{The bulk action and the equations of motion}
 \[ I_{bulk} = \frac{\alpha}{2\pi}\int_{\mathcal{M}}^{} d^2x \sqrt{-g}\left [ e^{-2\phi} \left ( R + \frac{8}{L^2} \right ) - \frac{L^2}{4}F^2 \right]\]
@@ -44,7 +52,7 @@ To obtain the equations of motion, we vary the action and get the following expr
 
 Further considering a constant electromagnetic field strength $F_{\mu\nu} = 2\mathcal{E}\epsilon_{\mu\nu}$, we obtain for the dilaton field $e^{-2\phi}=\displaystyle\frac{L^4}{4}\mathcal{E}^2$
 
-Further analyzing and the formulation of complete solution requires framing the problem in the \textit{Fefferman-Graham gauge} \cite{fefferman1985conformal} and considering the asymptotic expansion of the fields in this gauge. 
+Further analyzing and the formulation of complete solution requires framing the problem in the \textit{Fefferman-Graham gauge} \cite{Fefferman:1985} and considering the asymptotic expansion of the fields in this gauge. 
 
 \subsection{Calculation of the central charge}
 \label{subsec:central-charge-castro}
@@ -74,12 +82,12 @@ Proceeding further, the authors performed a dimensional reduction of the $(2+1)D
     c_{2D} = 2\pi e^{-\Phi}c_{3D}
 \end{equation}
 
-\section{$(1+1)D$ gravity coupled to the ModMax EM field \cite{hemant2023}}
+\section{$(1+1)D$ gravity coupled to the ModMax EM field \cite{rathi2023ads2} \cite{born1934foundations}}
 \label{drc-hemant-paper}
 
 The authors in this paper started with the \textit{ModMax} lagrangian, which is an example of non-linear electrodynamics with one free parameter, $\beta$, so formed to possess the usual $\mathbb{SO}(2)$ symmetry of Maxwell's theory along with the conformal symmetry. Further in the weak field limit $\left( \beta \to \infty \right) $, it must yield the Maxwell theory. The \textit{ModMax} lagrangian is given by
 \begin{equation}
-    \label{eqn:modmax-action}
+    \label{eqn:modmax-lagrangian}
     \mathcal{L} = \frac{1}{2} \left( S \cosh\beta - \sqrt{S^2+P^2}\sinh\beta  \right)
 \end{equation}
 
