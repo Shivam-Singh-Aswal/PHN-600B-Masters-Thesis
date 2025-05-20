@@ -1,7 +1,7 @@
 \section{ModMax Central Charge}
 
-\begin{frame}[allowframebreaks]{4D to 3D reduction and central charge \cite{Dharewa2024}}
-\subsection{4D to 3D reduction and central charge}
+\begin{frame}[allowframebreaks]{4D to 3D reduction \cite{Dharewa2024}}
+\subsection{4D to 3D reduction}
 We start with the 4D action for $EH$ gravity coupled to \textit{ModMax} electrodynamics. We then perform suitable dimensional reduction to obtain the action in 3D and solve for the system thereafter. 
 
 The ansatz for the metric is taken to be 
@@ -47,7 +47,7 @@ The variation of the action yields (and setting them all to zero to find the sta
 \begin{equation}
     \delta I = \frac{1}{16\pi G_3}\int d^3x \sqrt{-g} \left ( \Psi_{\mu\nu}\delta g^{\mu\nu} + \Psi_\mu \delta A^\mu + \Psi_\phi \delta \phi + \Psi_\chi \delta \chi \right) 
 \end{equation}
-where 
+%where 
 \begin{align}
     \Psi_\phi &= -2\kappa \left [ -2\beta e^{-2\beta\phi} (\partial \chi)^2\cosh\zeta + \frac{\sinh\zeta}{\sqrt{s^2+p^2} } \left ( s e^{-2\beta\phi} (\partial \chi)^2 + p^2\right) \right ] = 0\\ 
     \Psi_\chi &= -4\kappa \nabla_\mu \left [-e^{-2\beta\phi} \partial^\mu \chi \cosh\zeta + e^{-2\beta\phi}\frac{\sinh\zeta}{\sqrt{s^2+p^2} } \left ( s (\partial \chi)^2 + \frac{p}{2}\epsilon^{ab\mu}F_{ab}\right)  \right ] = 0 \\ 
@@ -61,6 +61,93 @@ We can extract some information from the Eq~\ref{eqn:metric-variation} upon cont
 \begin{align}
     -\frac{R}{2} + 3\Lambda &-2\kappa \Biggl [-3\mathcal{L}_{MM} + 2 \left ( \cosh \zeta - \frac{s \sinh \zeta}{\sqrt{s^2+p^2} } \right ) \left ( F^2 + e^{-2\beta\phi} (\partial \chi)^2\right ) - \nonumber\\ &\frac{3p^2}{\sqrt{p^2+s^2} }\sinh\zeta \Biggl ] = 0
 \end{align}
+
+\subsection{Perturbative solutions in FG gauge}
+In the FG gauge, upon expanding the fields 
+\begin{equation}
+    \Xi = \Xi^{(0)} + \kappa \Xi^{(1)} + \gamma \kappa \Xi^{(2)} + \kappa^2 \Xi^{(3)} + ...
+\end{equation}
+\begin{equation}
+    \Sigma = \Sigma^{(1)} + \gamma \Sigma^{(2)} + \kappa \Sigma^{(3)} + ...
+\end{equation}
+here $\Xi$ represents the metric field and the dilaton field whereas $\Sigma$ denotes the reduced gauge field and the auxiliary scalar field coming from the $A_\mu$ term. 
+
+Now if we expand the fields according to the above expansion and collect like order terms then we obtain the following equations 
+\subsubsection{Zero order}
+\begin{align}
+    R^{(0)} = 6\Lambda \\ 
+    G_{\mu\nu}^{(0)} + \Lambda g_{\mu\nu}^{(0)} = 0
+\end{align}
+All the dynamical variables are from the reduced 3D space. We note that the zeroth order equations are in agreement with the equations we obtain from the EH action for 3D AdS space. 
+
+
+\subsubsection{First order}
+\begin{align}
+    \nabla_{\mu}& \Biggl ( -e^{-2\beta\phi^{(0)}} \partial^\mu\chi^{(1)}\cosh\zeta + \frac{e^{-2\beta\phi^{(0)}}\sinh\zeta}{\sqrt{(s^{(1)})^2 + (p^{(1)})^2} } \times \nonumber \\ & \left ( s^{(0)}\partial^\mu\chi^{(1)} + p^{(0)}/2 \epsilon^{ab\mu}{F^{(1)}}_{ab}\right ) \Biggl ) = 0
+\end{align}
+\begin{align}
+    \nabla_{\mu}& \Biggl ( {F^{(1)}}^\mu_\nu\cosh\zeta - \frac{\sinh\zeta}{\sqrt{(s^{(1)})^2 + (p^{(1)})^2} } \times \nonumber \\ & \left ( s^{(0)}(F^{(1)})^\mu_\nu + p^{(1)}e^{-2\beta\phi}\epsilon^{\mu bc}(g^{(0)})_{b\nu} \partial_c \chi^{(1)}\right ) \Biggl ) = 0 \\ 
+2\mathcal{L}^{(1)}_{MM} - &2 \left ( \cosh \zeta - \frac{s^{(1)}\sinh\zeta}{\sqrt{s^2+p^2} } \right ) \left ( {F^{(1)}}^\beta_\mu {F^{(1)}_{\nu\beta}} + e^{-2\beta\phi^{(0)}}\partial_\mu\chi^{(1)}\partial_\nu\chi^{(1)} \right ) - \nonumber \\ & \frac{(p^{(1)})^2}{\sqrt{(s^{(1)})^2+(p^{(1)})^2}\sinh\zeta {g^{(0)}_{\mu\nu}} } = 0
+\end{align}
+
+Contracting the last of the above equations by $g^{\mu\nu}$ gives 
+\begin{equation}
+    2\mathcal{L}^{(1)}_{MM} - \left ( \cosh \zeta - \frac{s^{(1)}\sinh\zeta}{\sqrt{s^2+p^2} } \right ) \left ( {F^{(1)}}^2 + e^{-2\beta\phi^{(0)}}(\partial\chi)^2 \right ) - \frac{3(p^{(1)})^2}{\sqrt{(s^{(1)})^2+(p^{(1)})^2}}\sinh\zeta = 0 \nonumber
+\end{equation}
+
+These are highly coupled partial differential equations and obtaining analytical solution to them is not possible. We will have to solve them in the IR fixed point limit as done in \cite{rathi2023ads2}.
 \end{frame}
 
+\begin{frame}[allowframebreaks]{3D to 2D reduction}
+\subsection{3D to 2D reduction and central charge}
+                                                    x
+We further perform dimensional reduction to get the action for a 2D spacetime and compute the central charge in the 2D to be able to make a contrast with the charge obtained from the dimensional reduction of the 4D \textit{ModMax} action as mentioned in \cite{rathi2023ads2}. 
 
+\subsection{Reduction of the ModMax Lagrangian and bulk action}
+The choice of ansatz for the metric reduction as highlighted in \ref{subsec:modmax-4d-to-3d} will not word for the reduction from 3D to 2D. We thus need to choose a different form of the metric. The ansatz for the metric, in reference to \cite{Dharewa2024} and \cite{rathi2023ads2}, is taken to be 
+\begin{equation}
+    ds_{(3)}^2 = \mathcal{G}_{\mu\nu}dx^\mu dx^\nu + \Phi dz^2
+\end{equation}
+$\mu,\nu$ are the indices of the reduced spacetime and $z$ is the compact dimension with volume $L_z$. Further the ricci scalar is given by 
+
+\begin{equation}
+    R_{(3)} = \left ( R_{(2)} - \frac{1}{4}(\partial\Phi)^2 - \frac{1}{2}\Phi^{-1} \Box\Phi \right )
+\end{equation}
+and 
+\begin{equation}
+    \sqrt{-g_{(3)}} = \sqrt{-\mathcal{G}}\sqrt{ \Phi}
+\end{equation}
+
+and the action we obtain is 
+\begin{equation}
+    I = \frac{1}{16\pi G_2}\int d^3x\sqrt{-g_{(2)}}\sqrt{\Phi}  \left(R - 2\Lambda - 4\kappa\mathcal{L}_{\text{MM}}^{(2)}\right)
+\end{equation}
+where the definition of the projected \textit{ModMax} lagrangian is similar to the one written in \cite{rathi2023ads2}
+
+
+
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Thesis work}
+    %\section{My work}
+    \subsection{What I could do?}
+    \textbf{What I could do?}
+    \begin{itemize}
+        \item I have studied the ModMax theory and its coupling to gravity from the papers cited.
+        \item I could verify the central charge for the cases of constant electric field and modmax EM
+    \end{itemize}
+    \subsection{What I could not do?}
+    \textbf{What I could not do?}
+    \begin{itemize}
+        \item I could not find the exact solutions for the ModMax theory in projected 3D and further projected 2D cases.
+        \item I could not find the physical implications of the central charge for the ModMax theory.
+        \item Further I also couldn't establish any relation between the 2D and 3D central charge.
+    \end{itemize}
+    \subsection{Future work}
+    \textbf{Future work}
+    \begin{itemize}
+        \item I will try to solve the equations and obtain the central charge.
+        \item I will study the physical implications of the central charge for the ModMax theory.
+        \item I can try to analyse the effect of the choice of metric on the central charge
+    \end{itemize}
+\end{frame}

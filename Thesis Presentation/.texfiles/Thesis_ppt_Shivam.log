@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.26)  20 MAY 2025 12:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.26)  20 MAY 2025 13:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1024,14 +1024,14 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 55.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 55.
-<logo_white.png, id=42, 617.78806pt x 598.3956pt>
+<logo_white.png, id=70, 617.78806pt x 598.3956pt>
 File: logo_white.png Graphic file (type png)
 <use logo_white.png>
 Package pdftex.def Info: logo_white.png  used on input line 55.
 (pdftex.def)             Requested size: 28.77963pt x 27.88358pt.
 
 
-<titleslide_bg.png, id=44, 722.7pt x 542.025pt>
+<titleslide_bg.png, id=72, 722.7pt x 542.025pt>
 File: titleslide_bg.png Graphic file (type png)
 <use titleslide_bg.png>
 Package pdftex.def Info: titleslide_bg.png  used on input line 55.
@@ -1039,34 +1039,21 @@ Package pdftex.def Info: titleslide_bg.png  used on input line 55.
 [1
 
 {/opt/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/opt/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./titleslide_bg.png> <./logo_white.png>] (./sections/front-matter.tex (.texfiles/Thesis_ppt_Shivam.toc)
-<logo_color.jpg, id=66, 616.82445pt x 605.26125pt>
+<logo_color.jpg, id=103, 616.82445pt x 605.26125pt>
 File: logo_color.jpg Graphic file (type jpg)
 <use logo_color.jpg>
 Package pdftex.def Info: logo_color.jpg  used on input line 4.
 (pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
 
 
-<slide_bg.png, id=67, 771.63281pt x 578.16pt>
+<slide_bg.png, id=104, 771.63281pt x 578.16pt>
 File: slide_bg.png Graphic file (type png)
 <use slide_bg.png>
 Package pdftex.def Info: slide_bg.png  used on input line 4.
 (pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
 [2
 
- <./slide_bg.png> <./logo_color.jpg>]
-File: logo_color.jpg Graphic file (type jpg)
-<use logo_color.jpg>
-Package pdftex.def Info: logo_color.jpg  used on input line 18.
-(pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
-
-
-File: slide_bg.png Graphic file (type png)
-<use slide_bg.png>
-Package pdftex.def Info: slide_bg.png  used on input line 18.
-(pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
-[3
-
-]) (./sections/ModMax.tex
+ <./slide_bg.png> <./logo_color.jpg>]) (./sections/ModMax.tex
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 22.
 File: logo_color.jpg Graphic file (type jpg)
@@ -1079,7 +1066,7 @@ File: slide_bg.png Graphic file (type png)
 <use slide_bg.png>
 Package pdftex.def Info: slide_bg.png  used on input line 22.
 (pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
-[4
+[3
 
 ]
 File: logo_color.jpg Graphic file (type jpg)
@@ -1092,7 +1079,7 @@ File: slide_bg.png Graphic file (type png)
 <use slide_bg.png>
 Package pdftex.def Info: slide_bg.png  used on input line 57.
 (pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
-[5
+[4
 
 ]
 File: logo_color.jpg Graphic file (type jpg)
@@ -1105,7 +1092,7 @@ File: slide_bg.png Graphic file (type png)
 <use slide_bg.png>
 Package pdftex.def Info: slide_bg.png  used on input line 70.
 (pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
-[6
+[5
 
 ]) (./sections/central-charge.tex
 File: logo_color.jpg Graphic file (type jpg)
@@ -1118,7 +1105,7 @@ File: slide_bg.png Graphic file (type png)
 <use slide_bg.png>
 Package pdftex.def Info: slide_bg.png  used on input line 30.
 (pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
-[7
+[6
 
 ]
 File: logo_color.jpg Graphic file (type jpg)
@@ -1131,8 +1118,21 @@ File: slide_bg.png Graphic file (type png)
 <use slide_bg.png>
 Package pdftex.def Info: slide_bg.png  used on input line 30.
 (pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
-[8
+[7
 
+
+]
+File: logo_color.jpg Graphic file (type jpg)
+<use logo_color.jpg>
+Package pdftex.def Info: logo_color.jpg  used on input line 59.
+(pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
+
+
+File: slide_bg.png Graphic file (type png)
+<use slide_bg.png>
+Package pdftex.def Info: slide_bg.png  used on input line 59.
+(pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
+[8
 
 ]
 File: logo_color.jpg Graphic file (type jpg)
@@ -1146,19 +1146,6 @@ File: slide_bg.png Graphic file (type png)
 Package pdftex.def Info: slide_bg.png  used on input line 59.
 (pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
 [9
-
-]
-File: logo_color.jpg Graphic file (type jpg)
-<use logo_color.jpg>
-Package pdftex.def Info: logo_color.jpg  used on input line 59.
-(pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
-
-
-File: slide_bg.png Graphic file (type png)
-<use slide_bg.png>
-Package pdftex.def Info: slide_bg.png  used on input line 59.
-(pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
-[10
 
 
 ]
@@ -1181,7 +1168,7 @@ File: slide_bg.png Graphic file (type png)
 <use slide_bg.png>
 Package pdftex.def Info: slide_bg.png  used on input line 85.
 (pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
-[11
+[10
 
 {/opt/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 File: logo_color.jpg Graphic file (type jpg)
@@ -1194,63 +1181,82 @@ File: slide_bg.png Graphic file (type png)
 <use slide_bg.png>
 Package pdftex.def Info: slide_bg.png  used on input line 85.
 (pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
-[12
+[11
 
 
 ]
 File: logo_color.jpg Graphic file (type jpg)
 <use logo_color.jpg>
-Package pdftex.def Info: logo_color.jpg  used on input line 90.
+Package pdftex.def Info: logo_color.jpg  used on input line 127.
 (pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
 
 
 File: slide_bg.png Graphic file (type png)
 <use slide_bg.png>
-Package pdftex.def Info: slide_bg.png  used on input line 90.
+Package pdftex.def Info: slide_bg.png  used on input line 127.
+(pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
+[12
+
+]
+File: logo_color.jpg Graphic file (type jpg)
+<use logo_color.jpg>
+Package pdftex.def Info: logo_color.jpg  used on input line 127.
+(pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
+
+
+File: slide_bg.png Graphic file (type png)
+<use slide_bg.png>
+Package pdftex.def Info: slide_bg.png  used on input line 127.
 (pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
 [13
 
+
+]
+File: logo_color.jpg Graphic file (type jpg)
+<use logo_color.jpg>
+Package pdftex.def Info: logo_color.jpg  used on input line 127.
+(pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
+
+
+File: slide_bg.png Graphic file (type png)
+<use slide_bg.png>
+Package pdftex.def Info: slide_bg.png  used on input line 127.
+(pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
+[14
+
+
 ]) (./sections/my-work.tex
-Overfull \hbox (4.22772pt too wide) detected at line 64
+Overfull \hbox (4.22772pt too wide) detected at line 99
 []
+ []
+
+
+Overfull \hbox (24.28574pt too wide) detected at line 99
+[]\T1/phv/m/n/10 2\OMS/cmsy/m/n/10 L[] ^^@ [] [] ^^@ [] [] \OML/cmm/m/it/10 ^^P \OT1/cmss/m/n/10 = \T1/phv/m/n/10 0
  []
 
 File: logo_color.jpg Graphic file (type jpg)
 <use logo_color.jpg>
-Package pdftex.def Info: logo_color.jpg  used on input line 64.
+Package pdftex.def Info: logo_color.jpg  used on input line 99.
 (pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
 
 
 File: slide_bg.png Graphic file (type png)
 <use slide_bg.png>
-Package pdftex.def Info: slide_bg.png  used on input line 64.
-(pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
-[14
-
-]
-File: logo_color.jpg Graphic file (type jpg)
-<use logo_color.jpg>
-Package pdftex.def Info: logo_color.jpg  used on input line 64.
-(pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
-
-
-File: slide_bg.png Graphic file (type png)
-<use slide_bg.png>
-Package pdftex.def Info: slide_bg.png  used on input line 64.
+Package pdftex.def Info: slide_bg.png  used on input line 99.
 (pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
 [15
 
-
 ]
 File: logo_color.jpg Graphic file (type jpg)
 <use logo_color.jpg>
-Package pdftex.def Info: logo_color.jpg  used on input line 64.
+Package pdftex.def Info: logo_color.jpg  used on input line 99.
 (pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
 
 
 File: slide_bg.png Graphic file (type png)
 <use slide_bg.png>
-Package pdftex.def Info: slide_bg.png  used on input line 64.
+Package pdftex.def Info: slide_bg.png  used on input line 99.
 (pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
 [16
 
@@ -1258,13 +1264,13 @@ Package pdftex.def Info: slide_bg.png  used on input line 64.
 ]
 File: logo_color.jpg Graphic file (type jpg)
 <use logo_color.jpg>
-Package pdftex.def Info: logo_color.jpg  used on input line 64.
+Package pdftex.def Info: logo_color.jpg  used on input line 99.
 (pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
 
 
 File: slide_bg.png Graphic file (type png)
 <use slide_bg.png>
-Package pdftex.def Info: slide_bg.png  used on input line 64.
+Package pdftex.def Info: slide_bg.png  used on input line 99.
 (pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
 [17
 
@@ -1272,16 +1278,129 @@ Package pdftex.def Info: slide_bg.png  used on input line 64.
 ]
 File: logo_color.jpg Graphic file (type jpg)
 <use logo_color.jpg>
-Package pdftex.def Info: logo_color.jpg  used on input line 64.
+Package pdftex.def Info: logo_color.jpg  used on input line 99.
 (pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
 
 
 File: slide_bg.png Graphic file (type png)
 <use slide_bg.png>
-Package pdftex.def Info: slide_bg.png  used on input line 64.
+Package pdftex.def Info: slide_bg.png  used on input line 99.
 (pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
 [18
 
+
+]
+File: logo_color.jpg Graphic file (type jpg)
+<use logo_color.jpg>
+Package pdftex.def Info: logo_color.jpg  used on input line 99.
+(pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
+
+
+File: slide_bg.png Graphic file (type png)
+<use slide_bg.png>
+Package pdftex.def Info: slide_bg.png  used on input line 99.
+(pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
+[19
+
+
+]
+File: logo_color.jpg Graphic file (type jpg)
+<use logo_color.jpg>
+Package pdftex.def Info: logo_color.jpg  used on input line 99.
+(pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
+
+
+File: slide_bg.png Graphic file (type png)
+<use slide_bg.png>
+Package pdftex.def Info: slide_bg.png  used on input line 99.
+(pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
+[20
+
+
+]
+File: logo_color.jpg Graphic file (type jpg)
+<use logo_color.jpg>
+Package pdftex.def Info: logo_color.jpg  used on input line 99.
+(pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
+
+
+File: slide_bg.png Graphic file (type png)
+<use slide_bg.png>
+Package pdftex.def Info: slide_bg.png  used on input line 99.
+(pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
+[21
+
+
+]
+File: logo_color.jpg Graphic file (type jpg)
+<use logo_color.jpg>
+Package pdftex.def Info: logo_color.jpg  used on input line 99.
+(pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
+
+
+File: slide_bg.png Graphic file (type png)
+<use slide_bg.png>
+Package pdftex.def Info: slide_bg.png  used on input line 99.
+(pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
+[22
+
+
+]
+File: logo_color.jpg Graphic file (type jpg)
+<use logo_color.jpg>
+Package pdftex.def Info: logo_color.jpg  used on input line 99.
+(pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
+
+
+File: slide_bg.png Graphic file (type png)
+<use slide_bg.png>
+Package pdftex.def Info: slide_bg.png  used on input line 99.
+(pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
+[23
+
+
+]
+
+LaTeX Warning: Reference `subsec:modmax-4d-to-3d' on page 24 undefined on input line 129.
+
+File: logo_color.jpg Graphic file (type jpg)
+<use logo_color.jpg>
+Package pdftex.def Info: logo_color.jpg  used on input line 129.
+(pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
+
+
+File: slide_bg.png Graphic file (type png)
+<use slide_bg.png>
+Package pdftex.def Info: slide_bg.png  used on input line 129.
+(pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
+[24
+
+]
+File: logo_color.jpg Graphic file (type jpg)
+<use logo_color.jpg>
+Package pdftex.def Info: logo_color.jpg  used on input line 129.
+(pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
+
+
+File: slide_bg.png Graphic file (type png)
+<use slide_bg.png>
+Package pdftex.def Info: slide_bg.png  used on input line 129.
+(pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
+[25
+
+
+]
+File: logo_color.jpg Graphic file (type jpg)
+<use logo_color.jpg>
+Package pdftex.def Info: logo_color.jpg  used on input line 153.
+(pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
+
+
+File: slide_bg.png Graphic file (type png)
+<use slide_bg.png>
+Package pdftex.def Info: slide_bg.png  used on input line 153.
+(pdftex.def)             Requested size: 364.1981pt x 273.14676pt.
+[26
 
 ]) (./sections/references.tex
 File: logo_color.jpg Graphic file (type jpg)
@@ -1290,12 +1409,12 @@ Package pdftex.def Info: logo_color.jpg  used on input line 5.
 (pdftex.def)             Requested size: 34.78664pt x 34.14322pt.
 
 
-<white_bg.png, id=204, 146.79843pt x 179.92218pt>
+<white_bg.png, id=307, 146.79843pt x 179.92218pt>
 File: white_bg.png Graphic file (type png)
 <use white_bg.png>
 Package pdftex.def Info: white_bg.png  used on input line 5.
 (pdftex.def)             Requested size: 364.23552pt x 273.16882pt.
-[19
+[27
 
  <./white_bg.png>]
 File: logo_color.jpg Graphic file (type jpg)
@@ -1308,7 +1427,7 @@ File: white_bg.png Graphic file (type png)
 <use white_bg.png>
 Package pdftex.def Info: white_bg.png  used on input line 5.
 (pdftex.def)             Requested size: 364.23552pt x 273.16882pt.
-[20
+[28
 
 
 ])
@@ -1326,8 +1445,17 @@ Package pdftex.def Info: white_bg.png  used on input line 5.
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Thesis_ppt_Shivam.out' has not changed.
-(rerunfilecheck)             Checksum: 5FA598C44676BD39D0079B85FC24431B;1042.
+(rerunfilecheck)             Checksum: CB3F617E3164CAE01ABD6DE6D60B26F9;2632.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Thesis_ppt_Shivam
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Thesis_ppt_Shivam.run.xml'.
 \openout1 = `Thesis_ppt_Shivam.run.xml'.
 
@@ -1337,18 +1465,21 @@ Package logreq Info: Writing requests to 'Thesis_ppt_Shivam.run.xml'.
 ### simple group (level 1) entered at line 1 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32829 strings out of 473362
- 653058 string characters out of 5692597
- 1440809 words of memory out of 5000000
- 55267 multiletter control sequences out of 15000+600000
- 606234 words of font info for 86 fonts, out of 8000000 for 9000
+ 32915 strings out of 473362
+ 654457 string characters out of 5692597
+ 1447832 words of memory out of 5000000
+ 55325 multiletter control sequences out of 15000+600000
+ 609124 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,13n,123p,706b,1578s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></opt/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></opt/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></opt/texlive/2024/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on .texfiles/Thesis_ppt_Shivam.pdf (20 pages, 4354010 bytes).
+
+pdfTeX warning (dest): name{subsec:modmax-4d-to-3d} has been referenced but does not exist, replaced by a fixed one
+
+</opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></opt/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></opt/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></opt/texlive/2024/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on .texfiles/Thesis_ppt_Shivam.pdf (28 pages, 4375947 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 412 PDF objects out of 1000 (max. 8388607)
+ 331 compressed objects within 4 object streams
+ 86 named destinations out of 1000 (max. 500000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 

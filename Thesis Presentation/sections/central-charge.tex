@@ -85,7 +85,44 @@ Twisting by a conserved \( U(1) \) current yields a Virasoro algebra with nonzer
 \end{frame}
 
 \begin{frame}[allowframebreaks]{Central Charge for JT Gravity (\cite{jackiw1985lower},\cite{teitelboim1983gravitation}) coupled to ModMax {\color{red}\scriptsize [HR,DRC]\cite{rathi2023ads2}}}
-dfasdfadf
+
+The authors in this paper started with the \textit{ModMax} lagrangian, which is an example of non-linear electrodynamics with one free parameter, $\beta$, so formed to possess the usual $\mathbb{SO}(2)$ symmetry of Maxwell's theory along with the conformal symmetry. Further in the weak field limit $\left( \beta \to \infty \right) $, it must yield the Maxwell theory. The \textit{ModMax} lagrangian is given by
+\begin{equation}
+    \label{eqn:modmax-lagrangian}
+    \mathcal{L} = \frac{1}{2} \left( S \cosh\beta - \sqrt{S^2+P^2}\sinh\beta  \right)
+\end{equation}
+
+where $S=\frac{1}{2}F_{\mu\nu}F^{\mu\nu}$ and $P=\frac{1}{2}F_{\mu\nu}\tilde{F}^{\mu\nu}$. $\tilde{F}^{\mu\nu}$ is the hodge dual of the electromagnetic field tensor defined as $\tilde{F}^{\mu\nu} = \frac{1}{4}\epsilon^{\mu\nu\rho\sigma}F_{\rho\sigma}$.
+
+
+\subsection{The bulk action and the equations of motion}
+The 4D action for the gravity coupled to the \textit{ModMax} lagrangian is given as 
+\begin{equation}
+    I = \frac{1}{16\pi G_4}\int d^4x\sqrt{-g}\left(R - 2\Lambda - 4\alpha\mathcal{L}_{MM}\right)
+\end{equation}
+
+where $\alpha$ is the coupling constant and $\Lambda$ is the cosmological constant. The authors performed suitable dimensional reduction to obtain action for a $\left( 1+1 \right)$D \textit{JT} gravity theory. The ansatz for the metric was taken to be 
+\begin{align}
+    ds_{(3+1)}^2 &= g_{\mu\nu}(x^\rho)dx^\mu dx^\nu + \Phi(x^\mu)dx_i^2 \\
+    A_\mu &\equiv A_\mu(x^\nu), \quad A_z \equiv A_z(x^\mu),
+\end{align}
+
+Here $\mu, \nu$ are the indices for coordinates in the reduced dimensions and $i$ denotes the compact dimensions. The $2D$ projected \textit{ModMax} action is written as 
+\begin{align}
+    I_2 &= \frac{1}{16\pi G_2}\int d^2x\sqrt{-g_{(2)}}\left(\Phi R^{(2)} - 2\Lambda\Phi - 4\alpha\Phi\mathcal{L}_{(M)}^{(2)}\right) \\ 
+    \mathcal{L}_{\text{MM}}^{(2)} &= \frac{1}{2}\left(s\cosh\beta - \sqrt{s^2 + p^2}\sinh\beta\right) \\
+    s &= \frac{1}{2}F_{\mu\nu}F^{\mu\nu} + \Phi^{-1}\left((\partial\chi)^2 + (\partial\zeta)^2\right), \quad p = -2\Phi^{-1}\epsilon^{\mu\nu}\partial_\mu\chi\partial_\nu\zeta
+\end{align}
+
+\subsection{Calculation of the central charge}
+An approach similar to \cite{Castro:2008ne} was employed here, wherein the gauge transformation were obtained by imposing boundary condition preservation upon diffeomorphisms. And thus the coefficient of the modification term in the stress-energy tensor was identified as the central charge. The central charge thus obtained is given as
+\begin{equation}
+c_{3D} = \frac{1}{144\sqrt{3}\pi G_2}\left(\alpha - 12\beta\alpha + 2\alpha^2\right),
+\end{equation}
+
+The authors thus rightly concluded that in the limiting case of weak field $\left( \beta\to 0 \right) $ the central charge asymptotes to $\displaystyle\frac{1}{G_2}$ which matches with the central charge obtained by \cite{Castro:2008ne} for the case of Maxwell theory.
+
+
 
 \end{frame}
 

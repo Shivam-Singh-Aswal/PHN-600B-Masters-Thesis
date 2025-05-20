@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber .texfiles/Thesis_ppt_Shivam"] 1747725380.48216 ".texfiles/Thesis_ppt_Shivam.bcf" ".texfiles/Thesis_ppt_Shivam.bbl" ".texfiles/Thesis_ppt_Shivam" 1747725419.01921 0
-  ".texfiles/Thesis_ppt_Shivam.bcf" 1747725418.87687 109671 e3fde6fc6a009480b1b43e62d8db4ea0 "pdflatex"
+["biber .texfiles/Thesis_ppt_Shivam"] 1747727912.74372 ".texfiles/Thesis_ppt_Shivam.bcf" ".texfiles/Thesis_ppt_Shivam.bbl" ".texfiles/Thesis_ppt_Shivam" 1747728257.27115 0
+  ".texfiles/Thesis_ppt_Shivam.bcf" 1747728257.15517 110862 61426f2c5af4e66a86a805378aa66114 "pdflatex"
   "sections/references.bib" 1747725267.82358 6406 b867fa1659fdbe93b923140f5350823e ""
   (generated)
   ".texfiles/Thesis_ppt_Shivam.bbl"
   ".texfiles/Thesis_ppt_Shivam.blg"
   (rewritten before read)
-["pdflatex"] 1747725415.3406 "Thesis_ppt_Shivam.tex" "Thesis_ppt_Shivam.pdf" "Thesis_ppt_Shivam" 1747725419.0195 0
-  ".texfiles/Thesis_ppt_Shivam.aux" 1747725418.87479 7188 a319477c928e9f8d9a773d54c329fe05 "pdflatex"
-  ".texfiles/Thesis_ppt_Shivam.bbl" 1747725381.3782 13108 5b0d716bcf3d496127bb560ccbbeffb4 "biber .texfiles/Thesis_ppt_Shivam"
-  ".texfiles/Thesis_ppt_Shivam.nav" 1747725418.87832 3116 5a2f644187a9d23a7dfeca937f5b2ae4 "pdflatex"
-  ".texfiles/Thesis_ppt_Shivam.out" 1747725418.87526 1042 5fa598c44676bd39d0079b85fc24431b "pdflatex"
-  ".texfiles/Thesis_ppt_Shivam.run.xml" 1747725418.87832 2405 0b52875364f8d73038cf3ce18cd77baa "pdflatex"
-  ".texfiles/Thesis_ppt_Shivam.toc" 1747725418.87832 356 63dc984b34e6d68b5f35ad3beb479dd2 "pdflatex"
+["pdflatex"] 1747728253.77522 "Thesis_ppt_Shivam.tex" "Thesis_ppt_Shivam.pdf" "Thesis_ppt_Shivam" 1747728257.27144 0
+  ".texfiles/Thesis_ppt_Shivam.aux" 1747728257.15317 11632 83c642cd479cec8b209761248e4aeec5 "pdflatex"
+  ".texfiles/Thesis_ppt_Shivam.bbl" 1747727913.67728 13108 5b0d716bcf3d496127bb560ccbbeffb4 "biber .texfiles/Thesis_ppt_Shivam"
+  ".texfiles/Thesis_ppt_Shivam.nav" 1747728257.15662 4889 8cf787122b33b136176f71152422b6bf "pdflatex"
+  ".texfiles/Thesis_ppt_Shivam.out" 1747728257.15417 2632 cb3f617e3164cae01abd6de6d60b26f9 "pdflatex"
+  ".texfiles/Thesis_ppt_Shivam.run.xml" 1747728257.15662 2405 87a57c37b13d6b8bb2ec0316e8d7159b "pdflatex"
+  ".texfiles/Thesis_ppt_Shivam.toc" 1747728257.15662 996 94d72f5366aa1f73171732f4537d0480 "pdflatex"
   "/opt/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1732574197 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1732574197 2971 def0b6c1f0b107b3b936def894055589 ""
   "/opt/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1732574197 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -51,6 +51,7 @@
   "/opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1732574197 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1732574197 32716 08e384dc442464e7285e891af9f45947 ""
   "/opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1732574197 31764 459c573c03a4949a528c2cc7f557e217 ""
+  "/opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1732574197 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb" 1732574197 94269 4665f0d253cc3cca9439f89dbf2b9f33 ""
   "/opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb" 1732574197 175641 e30a691dc1402b08fd6535cf8a31e5b7 ""
   "/opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb" 1732574197 169201 9ebf99020dde51a5086e186761a34e8f ""
@@ -268,9 +269,9 @@
   "logo_color.jpg" 1747693910.33122 2885934 2fc03b03b7899ea3a55779d28c02943f ""
   "logo_white.png" 1747693910.36122 929000 cc189659e72104d5b1c35b6c37047f63 ""
   "sections/ModMax.tex" 1747724905.36051 2813 9b7781a32b43ea2aba510222686b5cee ""
-  "sections/central-charge.tex" 1747725376.66341 3723 dbced459e80bce2be8adbbac6bfa2d92 ""
-  "sections/front-matter.tex" 1747693910.61422 305 3c0de27d0cdba0ef22fc0c4afd724377 ""
-  "sections/my-work.tex" 1747725064.60048 4754 7a73719099f2bba99bfe55e174adbd3c ""
+  "sections/central-charge.tex" 1747726989.64931 6611 46b1b8f14419451bba83da7c39489acc ""
+  "sections/front-matter.tex" 1747728018.00324 310 75abea6a7b73ae0b5c626d06d2154682 ""
+  "sections/my-work.tex" 1747728253.69243 9939 8081a45f21e189410311953dc9d1a6f1 ""
   "sections/references.tex" 1747725411.61936 180 c72a47c5fae14241afb1ac10fc530c54 ""
   "slide_bg.png" 1747693910.36321 38239 078d222919dd8e0209d64a2730b9a238 ""
   "titleslide_bg.png" 1747693910.38022 745408 03f81991b351eabe8bd037ea03e715fd ""
