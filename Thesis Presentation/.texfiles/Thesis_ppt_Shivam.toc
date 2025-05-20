@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{ModMax electrodynamics}{4}{0}{2}
+\beamer@sectionintoc {3}{Central Charge}{7}{0}{3}
+\beamer@sectionintoc {4}{ModMax Central Charge}{14}{0}{4}
+\beamer@subsectionintoc {4}{1}{4D to 3D reduction and central charge}{14}{0}{4}
+\beamer@subsectionintoc {4}{2}{Equations of motion}{14}{0}{4}

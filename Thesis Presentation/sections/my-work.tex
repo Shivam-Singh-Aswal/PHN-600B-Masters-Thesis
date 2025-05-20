@@ -1,0 +1,66 @@
+\section{ModMax Central Charge}
+
+\begin{frame}[allowframebreaks]{4D to 3D reduction and central charge \cite{Dharewa2024}}
+\subsection{4D to 3D reduction and central charge}
+We start with the 4D action for $EH$ gravity coupled to \textit{ModMax} electrodynamics. We then perform suitable dimensional reduction to obtain the action in 3D and solve for the system thereafter. 
+
+The ansatz for the metric is taken to be 
+\begin{equation}
+    \label{eqn:4d-3d-metric-ansatz}
+    ds_{(4)}^2 = e^{2\alpha\phi}ds_{(3)}^2+e^{2\beta\phi}(dx^3)^2
+\end{equation}
+\begin{equation}
+    dx_{(3)}^2 = g_{\mu\nu}(x^\rho)dx^\mu dx^\nu
+\end{equation}
+\begin{equation}
+    R_{(4)} = e^{-2\alpha\phi} \left ( R_{(3)} - \frac{1}{2} (\partial\phi)^2 - d\alpha \Box\phi \right )
+\end{equation}
+$\mu, \nu$ are indices representing reduced dimensions and $x^3$ is the compact dimension. Note that we can drop the dalembertian term in the Ricci scalar as it is a total derivative. 
+
+Further for this form of choice for dissection of the metric to one lower dimension (from $d+1$ to $d$), we observe that $\mathcal{L}$ becomes $e^{(\beta+(d-2)\alpha)\phi}\sqrt{-g}\mathcal{R}+\hdots \text{ where } \mathcal{R}$ is the Ricci scalar in $d$ dimensions. So it is required to set $\beta+(d-2)\alpha=0$, which gives us $\beta=-\alpha$ in $4D$ to $3D$ reduction. Further to ensure that we obtain a term of the form $\frac{1}{2}\sqrt{-g}\left(\partial\phi\right)^2 $  in the action we require $\alpha^2 = \displaystyle\frac{1}{2(d-1)(d-2)}$ which gives $\alpha = \frac{1}{2}$ for our case. The reduced metric determinant can be determined using 
+\begin{equation*}
+    \sqrt{-g_{(4)}} = \sqrt{-g_{(3)}}e^{(\beta+d\alpha)\phi} = e^{2\alpha\phi}\sqrt{-g_{(3)}}
+\end{equation*}
+The 3D projected \textit{ModMax} lagrangian can now be calculated as
+\begin{align*}
+    s&=\frac{1}{2}F_{AB}F^{AB} = \frac{1}{2}F_{AB}F_{CD}g^{AC}g^{BD}\\ 
+     &= \frac{1}{2}F_{\mu\nu}F^{\alpha\beta}g^{\mu\alpha}g^{\nu\beta} + e^{-2\beta\phi}\left(F_{M3}F_{P3}g^{PM}\right) \\ 
+    &=\frac{1}{2}F_{\mu\nu}F^{\mu\nu} + e^{-2\beta\phi}(\partial_{\mu}\chi)^2
+\end{align*}
+\begin{align*}
+    p&=\frac{1}{2}F_{AB}\tilde{F}^{AB} = \frac{1}{2}F_{AB}F_{CD}\epsilon^{ABCD} \\ 
+    &= 2e^{-2\beta\phi}\sqrt{-g_{(3)}} \left ( F_{01}F_{23} + F_{02}F_{31} + F_{21}F_{03} \right ) \\ 
+    &= e^{-2\beta\phi}\epsilon^{abc}F_{ab}F_{c3} \\ 
+    &= 2e^{-2\beta\phi}\epsilon^{abc}F_{ab}\partial_{c}\chi
+\end{align*}
+\begin{equation}
+    \mathcal{L}_{\text{MM}}^{(3)} = \frac{1}{2}\left(s\cosh\zeta - \sqrt{s^2 + p^2}\sinh\zeta\right)
+\end{equation}
+here $\zeta$ is the \textit{ModMax} parameter.
+
+\subsection{Equations of motion}
+The 4D lagrangian is integrated along the compact dimension and we get the 3D reduced action as  
+\begin{equation}
+    I = \frac{1}{16\pi G_3}\int d^3x\sqrt{-g_{(3)}} \left(R - 2\Lambda - 4\kappa\mathcal{L}_{\text{MM}}^{(3)}\right)
+\end{equation}
+The variation of the action yields (and setting them all to zero to find the stationary action) 
+\begin{equation}
+    \delta I = \frac{1}{16\pi G_3}\int d^3x \sqrt{-g} \left ( \Psi_{\mu\nu}\delta g^{\mu\nu} + \Psi_\mu \delta A^\mu + \Psi_\phi \delta \phi + \Psi_\chi \delta \chi \right) 
+\end{equation}
+where 
+\begin{align}
+    \Psi_\phi &= -2\kappa \left [ -2\beta e^{-2\beta\phi} (\partial \chi)^2\cosh\zeta + \frac{\sinh\zeta}{\sqrt{s^2+p^2} } \left ( s e^{-2\beta\phi} (\partial \chi)^2 + p^2\right) \right ] = 0\\ 
+    \Psi_\chi &= -4\kappa \nabla_\mu \left [-e^{-2\beta\phi} \partial^\mu \chi \cosh\zeta + e^{-2\beta\phi}\frac{\sinh\zeta}{\sqrt{s^2+p^2} } \left ( s (\partial \chi)^2 + \frac{p}{2}\epsilon^{ab\mu}F_{ab}\right)  \right ] = 0 \\ 
+    \Psi_\nu &= 4\kappa \nabla_\mu \left [ F^\mu_\nu\cosh\zeta -  \frac{\sinh\zeta}{\sqrt{s^2+p^2} } \left ( s F^\mu_\nu + p e^{-2\beta\phi}\epsilon^{\mu bc}g_{b\nu}\partial_c\chi\right) \right ] = 0
+\end{align}
+\begin{align}
+    \label{eqn:metric-variation}
+    \Psi_{\mu\nu} &= \left ( R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R \right ) + \Lambda g_{\mu\nu} + 2\kappa \mathcal{L}_{MM}g_{\mu\nu} - \nonumber\\ & \kappa \left [ 2 \left ( \cosh \zeta - \frac{s \sinh \zeta}{\sqrt{s^2+p^2} } \right ) \left ( F^\beta_\mu F_{\nu\beta} + e^{-2\beta\phi}\partial_\mu\chi\partial_\nu\chi \right ) - \frac{p^2\sinh\zeta}{\sqrt{p^2+s^2} }g_{\mu\nu}\right ] = 0
+\end{align}
+We can extract some information from the Eq~\ref{eqn:metric-variation} upon contracting it with the contravariant metric tensor. We thus obtain 
+\begin{align}
+    -\frac{R}{2} + 3\Lambda &-2\kappa \Biggl [-3\mathcal{L}_{MM} + 2 \left ( \cosh \zeta - \frac{s \sinh \zeta}{\sqrt{s^2+p^2} } \right ) \left ( F^2 + e^{-2\beta\phi} (\partial \chi)^2\right ) - \nonumber\\ &\frac{3p^2}{\sqrt{p^2+s^2} }\sinh\zeta \Biggl ] = 0
+\end{align}
+\end{frame}
+
+

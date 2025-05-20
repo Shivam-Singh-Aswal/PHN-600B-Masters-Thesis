@@ -1,0 +1,71 @@
+\section{ModMax electrodynamics}
+
+\begin{frame}[allowframebreaks]{Introduction to ModMax Electrodynamics (\cite{born1934foundations},\cite{rathi2023ads2})}
+  \begin{itemize}
+    \item ModMax is a \textbf{nonlinear generalization of Maxwell theory} in $D=4$ that preserves:
+    \begin{itemize}
+      \item Conformal invariance
+      \item Electric-magnetic duality invariance
+    \end{itemize}
+    \item ModMax Lagrangian:
+    \[
+    \mathcal{L} = \cosh\gamma \, \mathcal{S} + \sinh\gamma \sqrt{\mathcal{S}^2 + \mathcal{P}^2}
+    \]
+    where:
+    \[
+    \mathcal{S} = -\frac{1}{4} F_{\mu\nu} F^{\mu\nu} = \frac{1}{2}(\vec{E}^2 - \vec{B}^2), \quad
+    \mathcal{P} = -\frac{1}{4} F_{\mu\nu} \widetilde{F}^{\mu\nu} = \vec{E} \cdot \vec{B}
+    \]
+    \item $\gamma$ is a dimensionless parameter, $\gamma \to 0$ recovers linear Maxwell theory.
+    \item Despite being nonlinear, exact solutions like plane waves and Liénard-Wiechert fields persist.
+  \end{itemize}
+\end{frame}
+
+%--- Slide 2: Invariance Properties ---
+\begin{frame}[allowframebreaks]{Conformal and Duality Invariance}
+  \textbf{Conformal Invariance:}
+  \begin{itemize}
+    \item The action is invariant under scaling:
+    \[
+    x^\mu \to b x^\mu, \quad A_\mu \to b^{-1} A_\mu, \quad F_{\mu\nu} \to b^{-2} F_{\mu\nu}
+    \]
+  \end{itemize}
+  \textbf{Duality Invariance:}
+  \begin{itemize}
+    \item The field equations are invariant under $SO(2)$ electric-magnetic duality rotations:
+    \[
+    \begin{pmatrix}
+      G_{\mu\nu}' \\
+      \widetilde{F}_{\mu\nu}'
+    \end{pmatrix}
+    =
+    \begin{pmatrix}
+      \cos\theta & \sin\theta \\
+      -\sin\theta & \cos\theta
+    \end{pmatrix}
+    \begin{pmatrix}
+      G_{\mu\nu} \\
+      \widetilde{F}_{\mu\nu}
+    \end{pmatrix}
+    \]
+    \item Duality condition:
+    \[
+    \mathcal{L}_S^2 - 2S \mathcal{L}_S \mathcal{L}_P - \mathcal{L}_P^2 = 1
+    \]
+    where $\mathcal{L}_S = \partial \mathcal{L}/\partial \mathcal{S}$ and similarly for $\mathcal{L}_P$.
+  \end{itemize}
+\end{frame}
+
+%--- Slide 3: Coupling to Gravity ---
+\begin{frame}[allowframebreaks]{ModMax Coupled to Gravity}
+  \begin{itemize}
+    \item ModMax theory admits coupling to gravitational backgrounds via standard minimal coupling:
+    \[
+    \mathcal{L} = \sqrt{-g} \left( \cosh\gamma \, \mathcal{S} + \sinh\gamma \sqrt{\mathcal{S}^2 + \mathcal{P}^2} \right)
+    \]
+    \item Coupling to point charges (electric, magnetic, dyons) preserves exact Liénard-Wiechert field solutions.
+    \item A reformulation using auxiliary axion-dilaton-like scalar fields suggests a possible \textbf{effective field theory origin} and link to string theory.
+    \item Thermodynamic and geometric effects of ModMax (e.g., black holes, Taub-NUT metrics) differ from Maxwell, signaling new physics in strong-field regimes.
+  \end{itemize}
+\end{frame}
+

@@ -1,0 +1,73 @@
+% IIT Roorkee presentation theme for beamer class used in Latex
+%
+% Manisha Verma, Department of Mathematics,  <mani7dma@iitr.ac.in>
+% Sudip Roy, Department of Computer Science and Engineering, <sudiproy.fcs@iitr.ac.in>, <http://faculty.iitr.ac.in/~sudiproy.fcs/>
+% Balasubramanian Raman, Department of Computer Science and Engineering, <balarfma@iitr.ac.in>, <https://sites.google.com/site/balaiitr/>
+%
+% Date: July 23, 2015
+% Version 1.0: First public version.
+
+\documentclass[10pt, compress]{beamer}
+
+\usetheme{IITR} % To use the theme of IITR for beamer class in Latex
+
+\usepackage{textpos}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz, graphicx}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}{}
+\setbeamercovered{transparent}
+\usebackgroundtemplate{\includegraphics [width=\paperwidth,height=\paperheight]{slide_bg.png}}
+\usepackage{url}
+\usepackage[backend=biber,style=numeric,citestyle=numeric]{biblatex} % Choose your style
+
+
+\addbibresource{sections/references.bib} % Point to your .bib file
+
+%%%%%%%%%%%%% Title Slide %%%%%%%%%%%%%%%%%
+\title{Some formal aspects of two dimensional gravity and its field theory dual}
+\subtitle{PHN-600B Presentation}
+\author{
+    Shivam Singh Aswal\\[0.3cm] 
+    {\scriptsize Supervisor: Prof. Dibakar Roychowdhary}
+    }
+\date{{\scriptsize May 20, 2025} \vspace{3em}}
+% \date{{\scriptsize\today} \vspace{3em}}
+\institute{\url{shivam_sa@ph.iitr.ac.in}} 
+
+% \\
+% \href{http://faculty.iitr.ac.in/\textasciitilde abc/}{http://faculty.iitr.ac.in/\textasciitilde abc/}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%% Title Slide %%%%%%%%%%%%%%%%%
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{titleslide_bg.png}}
+\begin{frame}[plain,t]%{INDIAN INSTITUTE OF TECHNOLOGY ROORKEE}
+\titlepage
+\begin{textblock*}{200mm}(.94\textwidth,-8.75cm)
+\includegraphics[height=.98cm]{logo_white.png}
+\end{textblock*}
+\end{frame}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%% Slide Layout %%%%%%%%%%%%%%%%%
+\input{sections/front-matter}
+
+\input{sections/ModMax}
+
+\input{sections/central-charge.tex}
+
+\input{sections/my-work.tex}
+
+\input{sections/references}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}

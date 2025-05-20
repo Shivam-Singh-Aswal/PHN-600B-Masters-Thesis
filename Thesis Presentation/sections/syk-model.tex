@@ -1,0 +1,38 @@
+\section{SYK Model}
+
+\begin{frame}[t]{Sachdev-Ye-Kitaev Model I}
+
+\textbf{Introduction}
+\begin{itemize}
+	\item Hamiltonian:
+	\[ \frac{1}{2} \sum_{i=1}^N \chi_i \partial_t \chi_i - \frac{1}{4!} \sum_{i,j,k,l=1}^N \mathcal{J}_{i j k l} \chi_i \chi_j \chi_k \chi_l \]
+	\[H = \frac{1}{4!} \sum_{i,j,k,l} J_{ijkl} \chi_i \chi_j \chi_k \chi_l\]
+	where $\chi_i$ are N Majorana fermions satisfying:
+	\[\{\chi_i, \chi_j\} = \delta_{ij}, \quad \chi_i^\dagger = \chi_i\]
+	and $J_{ijkl}$ are random couplings with variance:
+	\[\langle J_{ijkl}^2 \rangle = \frac{3! J^2}{N^3}\]
+
+	\item Proposed by Kitaev as a simplification of the Sachdev-Ye model, it combines strong interactions, solvability, and chaotic dynamics
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{Sachdev-Ye-Kitaev Model II} %[allowframebreaks]
+
+\textbf{Key Features:}
+\begin{itemize}
+	\item Large N Solvability: In the $N\to\infty$ limit, the model is dominated by "melonic" Feynman diagrams, enabling exact computation of correlation functions.
+	% \item Chaos: Displays maximal Lyapunov exponent $\lambda_L = \frac{2\pi}{\beta}$, identical to black holes.
+	\item Emergent Conformal Symmetry: In the infrared (IR) limit:
+	\[G(\tau) \sim \frac{\text{sgn}(\tau)}{|J\tau|^{2\Delta}}, \quad \Delta = \frac{1}{4}\]
+\end{itemize}
+
+\textbf{Disorder Averaging:}
+\begin{itemize}
+	\item Random couplings lead to a quenched average:
+    \[\langle J_{ijkl} \rangle = 0, \quad \langle J_{ijkl}^2 \rangle = \frac{3!J^2}{N^3}\]
+    \item Self-averaging ensures that physical properties are universal.
+\end{itemize}
+
+\end{frame}

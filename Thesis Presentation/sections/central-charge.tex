@@ -1,0 +1,92 @@
+\section{Central Charge}
+
+
+\begin{frame}[allowframebreaks]{Mathematical Definition of Central Charge}
+    \textbf{Central Charge (\cite{Brown:1986nw},\cite{Hartman:2008dq}, \cite{Rathi:2024}) in 2D CFT:}
+\begin{itemize}
+  \item The energy-momentum tensor generates the Virasoro algebra:
+  \[\left[L_m, L_n\right] = (m - n)L_{m+n} + \frac{c}{12}(m^3 - m)\delta_{m+n, 0}\]
+
+  \item The constant \( c \) is the \textbf{central charge}.
+\end{itemize}
+
+\textbf{Gravity Perspective (Brown–Henneaux \cite{Brown:1986nw}):}
+\begin{itemize}
+  \item In 3D gravity with AdS\(_3\) boundary conditions:
+  \[c = \frac{3\ell}{2G_3}\]
+  where \( \ell \) is the AdS radius and \( G_3 \) is Newton's constant in 3D.
+\end{itemize}
+
+\textbf{2D Gravity on AdS\(_2\) \cite{Castro:2008ne} (e.g., Jackiw-Teitelboim gravity):}
+\begin{itemize}
+  \item With Maxwell-dilaton gravity and a twisted energy-momentum tensor:
+  \[\tilde{T}_{\pm\pm} = T_{\pm\pm} \pm A \partial_\pm j_\pm\]
+
+  the central charge becomes:
+  \[c = 12kG^2Q^2\ell^4\] 
+
+  where \( Q \) is electric charge, \( \ell \) the AdS\(_2\) radius, and \( k \) the level of the U(1) current.
+\end{itemize}
+\end{frame}
+
+% Slide 2: Physical Significance
+\begin{frame}[allowframebreaks]{Physical Significance of Central Charge}
+\textbf{1. Holography and AdS/CFT:}
+\begin{itemize}
+  \item The central charge governs the density of states in a 2D CFT.
+  \item In AdS/CFT, it encodes the number of degrees of freedom on the boundary.
+\end{itemize}
+
+\textbf{2. Entropy via Cardy Formula:}
+\[S = 2\pi \sqrt{\frac{c}{6} \left( \Delta - \frac{c}{24} \right)}\]
+
+\begin{itemize}
+  \item This formula matches black hole entropy when \( c \) comes from asymptotic symmetries.
+  \item Example: AdS\(_2\)/CFT\(_1\) — entropy from twisted CFT matches gravity result.
+\end{itemize}
+
+\textbf{3. Indicator of Anomalies:}
+\begin{itemize}
+  \item Central charge appears in quantum anomalies (e.g., conformal anomaly).
+  \item Shows failure of classical symmetry at the quantum level.
+\end{itemize}
+
+\textbf{4. Near-Horizon Symmetries:}
+\begin{itemize}
+  \item Emergence of a CFT near black hole horizons with well-defined central charge.
+  \item Supports holographic descriptions even in 2D (AdS\(_2\) cases).
+\end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Central Charge for AdS\(_2\) Gravity {\color{red}\scriptsize [Hartman et al.]\cite{Hartman:2008dq}}}
+    
+\textbf{Setup:} 2D Maxwell-dilaton gravity on AdS\(_2\) with constant electric field \( E \), AdS radius \( \ell \), and gauge field \( A_\mu \).  
+
+\bigskip
+
+\textbf{1. Classical Action in Conformal Gauge:}
+\[S = \frac{1}{2\pi} \int d^2x \sqrt{-g} \left( \eta \left(R + \frac{8}{\ell^2} \right) - \frac{\ell^2}{4} F_{\mu\nu}F^{\mu\nu} \right)\]
+
+\textbf{2. Twisted Stress Tensor:}  
+Conformal diffeomorphisms do not preserve boundary conditions → must be accompanied by a \( U(1) \) gauge transformation.  
+This leads to a \emph{twisted} energy-momentum tensor:
+\[\widetilde{T}_{\pm\pm} = T_{\pm\pm} \pm \frac{E \ell^2}{4} \partial_\pm j_\pm\]
+
+\textbf{3. Commutator of Twisted Stress Tensor:}
+\[\widetilde{T}_{--}(x), \widetilde{T}_{--}(y)] = \cdots + \frac{\pi k E^2 \ell^4}{8} \partial_y^3 \delta(x - y)\]
+
+
+\textbf{4. Central Charge:}
+From the above commutator, extract the central term:
+\[c = \frac{3k E^2 \ell^4}{4}\]
+
+\textbf{Conclusion:}  
+Twisting by a conserved \( U(1) \) current yields a Virasoro algebra with nonzero central charge, despite pure \(AdS_2\) gravity having \( c = 0 \).
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Central Charge for JT Gravity (\cite{jackiw1985lower},\cite{teitelboim1983gravitation}) coupled to ModMax {\color{red}\scriptsize [HR,DRC]\cite{rathi2023ads2}}}
+dfasdfadf
+
+\end{frame}
+
+

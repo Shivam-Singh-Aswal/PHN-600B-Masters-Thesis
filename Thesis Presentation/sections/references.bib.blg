@@ -1,0 +1,5 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'sections/references.bib.blg'
+[43] biber:340> INFO - === Thu Nov 28, 2024, 15:53:44
+[145] Utils.pm:410> ERROR - Cannot find 'sections/references.bib.bcf'!
+[145] Biber.pm:136> INFO - ERRORS: 1

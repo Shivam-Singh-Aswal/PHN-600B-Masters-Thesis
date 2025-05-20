@@ -1,0 +1,337 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{born1934foundations}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=bad172b2c82dbccc8e126f5da73356ce}{%
+           family={Born},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3558c8428b4899b9cb613ba71ab54ab3}{%
+           family={Infeld},
+           familyi={I\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c7a2d7057af111df25e6a9886356b77}
+      \strng{fullhash}{1c7a2d7057af111df25e6a9886356b77}
+      \strng{fullhashraw}{1c7a2d7057af111df25e6a9886356b77}
+      \strng{bibnamehash}{1c7a2d7057af111df25e6a9886356b77}
+      \strng{authorbibnamehash}{1c7a2d7057af111df25e6a9886356b77}
+      \strng{authornamehash}{1c7a2d7057af111df25e6a9886356b77}
+      \strng{authorfullhash}{1c7a2d7057af111df25e6a9886356b77}
+      \strng{authorfullhashraw}{1c7a2d7057af111df25e6a9886356b77}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Royal Society of London A}
+      \field{number}{852}
+      \field{title}{Foundations of the new field theory}
+      \field{volume}{144}
+      \field{year}{1934}
+      \field{pages}{425\bibrangedash 451}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1098/rspa.1934.0059
+      \endverb
+    \endentry
+    \entry{Brown:1986nw}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=69a1be6c201f7d6f06e312b60359e582}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=7bf2d4a663d359c69fb014ca4e12279d}{%
+           family={Henneaux},
+           familyi={H\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c3f76f7034aacdc95ed6358a73296830}
+      \strng{fullhash}{c3f76f7034aacdc95ed6358a73296830}
+      \strng{fullhashraw}{c3f76f7034aacdc95ed6358a73296830}
+      \strng{bibnamehash}{c3f76f7034aacdc95ed6358a73296830}
+      \strng{authorbibnamehash}{c3f76f7034aacdc95ed6358a73296830}
+      \strng{authornamehash}{c3f76f7034aacdc95ed6358a73296830}
+      \strng{authorfullhash}{c3f76f7034aacdc95ed6358a73296830}
+      \strng{authorfullhashraw}{c3f76f7034aacdc95ed6358a73296830}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Commun. Math. Phys.}
+      \field{title}{{Central Charges in the Canonical Realization of Asymptotic Symmetries: An Example from Three-Dimensional Gravity}}
+      \field{volume}{104}
+      \field{year}{1986}
+      \field{pages}{207\bibrangedash 226}
+      \range{pages}{20}
+    \endentry
+    \entry{Castro:2008ne}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=aa418956d2d3db7ee9c560c4d0275111}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={Alejandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5635ed1434fe07f86c7c105a8399dc4b}{%
+           family={Grumiller},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=69d8a070551c8b65dcaa296956a70ce2}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Finn},
+           giveni={F\bibinitperiod}}}%
+        {{hash=81911b2f6ad64bd806fc69fcd7dc9d06}{%
+           family={McNees},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{9de52f9f2b3c099493502e921bb1ca1d}
+      \strng{fullhash}{9eb158d9888b6295e27d9106430029b3}
+      \strng{fullhashraw}{9eb158d9888b6295e27d9106430029b3}
+      \strng{bibnamehash}{9de52f9f2b3c099493502e921bb1ca1d}
+      \strng{authorbibnamehash}{9de52f9f2b3c099493502e921bb1ca1d}
+      \strng{authornamehash}{9de52f9f2b3c099493502e921bb1ca1d}
+      \strng{authorfullhash}{9eb158d9888b6295e27d9106430029b3}
+      \strng{authorfullhashraw}{9eb158d9888b6295e27d9106430029b3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{Holographic Description of AdS(2) Black Holes}}
+      \field{volume}{11}
+      \field{year}{2008}
+      \field{pages}{052}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2008/11/052
+      \endverb
+      \verb{eprint}
+      \verb 0809.4264
+      \endverb
+    \endentry
+    \entry{Dharewa2024}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=31048cdb11d12ebe87300eac8f31d85a}{%
+           family={Dharewa},
+           familyi={D\bibinitperiod},
+           given={Manav},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Indian Institute of Technology Roorkee}%
+      }
+      \list{location}{1}{%
+        {Roorkee, India}%
+      }
+      \strng{namehash}{31048cdb11d12ebe87300eac8f31d85a}
+      \strng{fullhash}{31048cdb11d12ebe87300eac8f31d85a}
+      \strng{fullhashraw}{31048cdb11d12ebe87300eac8f31d85a}
+      \strng{bibnamehash}{31048cdb11d12ebe87300eac8f31d85a}
+      \strng{authorbibnamehash}{31048cdb11d12ebe87300eac8f31d85a}
+      \strng{authornamehash}{31048cdb11d12ebe87300eac8f31d85a}
+      \strng{authorfullhash}{31048cdb11d12ebe87300eac8f31d85a}
+      \strng{authorfullhashraw}{31048cdb11d12ebe87300eac8f31d85a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{note}{Supervisor: Dr. Dibakar Roychowdhury}
+      \field{title}{Black Hole Entropy and 2D Holography}
+      \field{type}{Master's thesis}
+      \field{year}{2024}
+    \endentry
+    \entry{Hartman:2008dq}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=0fee20800c04e0b4a522cdbaf12b73a0}{%
+           family={Hartman},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2ae7833d8fed77f92f9059c728c1f5e5}{%
+           family={Strominger},
+           familyi={S\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2043c56d50802d0c63d6ee8d1a840dd3}
+      \strng{fullhash}{2043c56d50802d0c63d6ee8d1a840dd3}
+      \strng{fullhashraw}{2043c56d50802d0c63d6ee8d1a840dd3}
+      \strng{bibnamehash}{2043c56d50802d0c63d6ee8d1a840dd3}
+      \strng{authorbibnamehash}{2043c56d50802d0c63d6ee8d1a840dd3}
+      \strng{authornamehash}{2043c56d50802d0c63d6ee8d1a840dd3}
+      \strng{authorfullhash}{2043c56d50802d0c63d6ee8d1a840dd3}
+      \strng{authorfullhashraw}{2043c56d50802d0c63d6ee8d1a840dd3}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{Central Charge for AdS(2) Quantum Gravity}}
+      \field{volume}{04}
+      \field{year}{2009}
+      \field{pages}{026}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2009/04/026
+      \endverb
+      \verb{eprint}
+      \verb 0803.3621
+      \endverb
+    \endentry
+    \entry{jackiw1985lower}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0ec65e8ed5e1bf0155f2711bc8aa0828}{%
+           family={Jackiw},
+           familyi={J\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ec65e8ed5e1bf0155f2711bc8aa0828}
+      \strng{fullhash}{0ec65e8ed5e1bf0155f2711bc8aa0828}
+      \strng{fullhashraw}{0ec65e8ed5e1bf0155f2711bc8aa0828}
+      \strng{bibnamehash}{0ec65e8ed5e1bf0155f2711bc8aa0828}
+      \strng{authorbibnamehash}{0ec65e8ed5e1bf0155f2711bc8aa0828}
+      \strng{authornamehash}{0ec65e8ed5e1bf0155f2711bc8aa0828}
+      \strng{authorfullhash}{0ec65e8ed5e1bf0155f2711bc8aa0828}
+      \strng{authorfullhashraw}{0ec65e8ed5e1bf0155f2711bc8aa0828}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{title}{Lower Dimensional Gravity}
+      \field{volume}{252}
+      \field{year}{1985}
+      \field{pages}{343\bibrangedash 356}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/0550-3213(85)90448-1
+      \endverb
+    \endentry
+    \entry{Rathi:2024}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=60202fc8817a14d2f0d2fa4dd26105d0}{%
+           family={Rathi},
+           familyi={R\bibinitperiod},
+           given={Hemant},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Indian Institute of Technology Roorkee}%
+      }
+      \list{location}{1}{%
+        {Roorkee, India}%
+      }
+      \strng{namehash}{60202fc8817a14d2f0d2fa4dd26105d0}
+      \strng{fullhash}{60202fc8817a14d2f0d2fa4dd26105d0}
+      \strng{fullhashraw}{60202fc8817a14d2f0d2fa4dd26105d0}
+      \strng{bibnamehash}{60202fc8817a14d2f0d2fa4dd26105d0}
+      \strng{authorbibnamehash}{60202fc8817a14d2f0d2fa4dd26105d0}
+      \strng{authornamehash}{60202fc8817a14d2f0d2fa4dd26105d0}
+      \strng{authorfullhash}{60202fc8817a14d2f0d2fa4dd26105d0}
+      \strng{authorfullhashraw}{60202fc8817a14d2f0d2fa4dd26105d0}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{AdS2/CFT1 at finite density and holographic aspects of 2D black holes}}
+      \field{type}{phdthesis}
+      \field{year}{2024}
+    \endentry
+    \entry{rathi2023ads2}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=60202fc8817a14d2f0d2fa4dd26105d0}{%
+           family={Rathi},
+           familyi={R\bibinitperiod},
+           given={Hemant},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a535d7279fddd96a4c8b5681337d0f1f}{%
+           family={Roychowdhury},
+           familyi={R\bibinitperiod},
+           given={Dibakar},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c031dca7ded0b61c2c4d359c3192c211}
+      \strng{fullhash}{c031dca7ded0b61c2c4d359c3192c211}
+      \strng{fullhashraw}{c031dca7ded0b61c2c4d359c3192c211}
+      \strng{bibnamehash}{c031dca7ded0b61c2c4d359c3192c211}
+      \strng{authorbibnamehash}{c031dca7ded0b61c2c4d359c3192c211}
+      \strng{authornamehash}{c031dca7ded0b61c2c4d359c3192c211}
+      \strng{authorfullhash}{c031dca7ded0b61c2c4d359c3192c211}
+      \strng{authorfullhashraw}{c031dca7ded0b61c2c4d359c3192c211}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{arXiv preprint arXiv:2303.14379}
+      \field{title}{{AdS$_2$ holography and ModMax}}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2303.14379
+      \endverb
+    \endentry
+    \entry{teitelboim1983gravitation}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0c11ff64f16ce88c5706a73b69ce0816}{%
+           family={Teitelboim},
+           familyi={T\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c11ff64f16ce88c5706a73b69ce0816}
+      \strng{fullhash}{0c11ff64f16ce88c5706a73b69ce0816}
+      \strng{fullhashraw}{0c11ff64f16ce88c5706a73b69ce0816}
+      \strng{bibnamehash}{0c11ff64f16ce88c5706a73b69ce0816}
+      \strng{authorbibnamehash}{0c11ff64f16ce88c5706a73b69ce0816}
+      \strng{authornamehash}{0c11ff64f16ce88c5706a73b69ce0816}
+      \strng{authorfullhash}{0c11ff64f16ce88c5706a73b69ce0816}
+      \strng{authorfullhashraw}{0c11ff64f16ce88c5706a73b69ce0816}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics Letters B}
+      \field{title}{Gravitation and Hamiltonian Structure in Two Space-Time Dimensions}
+      \field{volume}{126}
+      \field{year}{1983}
+      \field{pages}{41\bibrangedash 45}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/0370-2693(83)90012-6
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
